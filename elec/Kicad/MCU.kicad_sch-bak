@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 61f4c60b-bf77-42f5-84b4-fda320eaf3e7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Notes:\n- Le débogeur du STM32L0538-DISCO est le STMF103CBT6"
+    (at 83.82 17.78 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 406c2297-fe2d-4526-a733-53f5f1c8fe56)
+  )
+  (text "Check List:\n- Hub USB (RX/TX doivent avoir la même longeur)\n- Batterie + circuit protection\n- MCU + GPIO conncetion\n- FLASH + RAM memory\n- Circuit recharge\n- Boot/reload button\n- Inboard debuger (si la place le permet\n- Switch (qui déconnecte batterie du circuit)\n- Test point"
+    (at 21.59 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 610d8a72-d541-4ed1-bcca-7c61e2720169)
+  )
+)

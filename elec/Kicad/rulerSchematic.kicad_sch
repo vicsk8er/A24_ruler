@@ -25,6 +25,11 @@
     (uuid dd5e715f-b254-406b-b948-900d8781a20f)
   )
 
+  (text "Light sensor\naccelero\nLecteur RFID (pour récup les data / rickroll)\nPtit jeu de merdre sur écran\nFlash light ruler\ndétecteur métaux\nlumière mauve (pour lire les écriture invisible oeil nue)\nChronomètre/horloge sur écran (juste numérique, pas de on ce fait chier mettons)\nmagnétomètre (pour avoir une bousole)"
+    (at 182.88 152.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2d4d8c24-5b38-445b-8733-2a81ba21d33e)
+  )
   (text "SI ON VEUX CE FAIRE CHIER (idées supplémentaire)" (at 207.01 133.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e790e3b7-c395-4bd1-80fb-8a481dda4c45)
@@ -123,5 +128,15 @@
     (path "/5f7b9d88-eb12-47e8-8ae8-265c4903ec29" (page "6"))
     (path "/60d26db4-b138-46b0-b681-4276ebd1d4cf" (page "7"))
     (path "/494e6d32-1eab-4497-b57f-12dbcea47915" (page "8"))
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349" (page "9"))
+  )
+
+  (symbol_instances
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/d4d5e971-027b-4246-b05f-a0a5aaaf53df"
+      (reference "U1") (unit 1) (value "STM32L053C8T6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349/38637a6f-6799-45d7-a122-bdd57b2f9701"
+      (reference "U2") (unit 1) (value "STM32F103CBT6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    )
   )
 )
