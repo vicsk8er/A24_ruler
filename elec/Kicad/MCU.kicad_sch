@@ -1,0 +1,16 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 61f4c60b-bf77-42f5-84b4-fda320eaf3e7)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Check List:\n- Hub USB (RX/TX doivent avoir la même longeur)\n- Batterie\n- MCU GPIO\n- Circuut recharge\n- Boot/reload button\n- Inboard debuger (si la place le permet\n- Switch (qui déconnecte batterie du circuit)\n- Test point"
+    (at 21.59 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 610d8a72-d541-4ed1-bcca-7c61e2720169)
+  )
+)
