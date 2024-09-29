@@ -129,14 +129,75 @@
     (path "/60d26db4-b138-46b0-b681-4276ebd1d4cf" (page "7"))
     (path "/494e6d32-1eab-4497-b57f-12dbcea47915" (page "8"))
     (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349" (page "9"))
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d" (page "10"))
   )
 
   (symbol_instances
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/2af8f7d7-3bd1-4d40-b9fe-be6fde590393"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/3f61d10b-7a1e-4058-908a-236aa7fa769b"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/57930241-9050-4c9f-8c10-4378976ca0c3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/868fcd85-9777-460c-8407-4f8f281d2f0a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/22546e62-5aa1-4ee1-8817-1391f8c2afd9"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/2ff3ff2d-d1a6-4ff4-befe-4b63a8dff9cc"
+      (reference "C?") (unit 1) (value "22uF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/7d84bc6d-616f-4335-b4e7-7dd98ef9d1a7"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/9fa91ac9-1a84-4c16-ae08-d4fc1afee474"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/b108ac67-c1d6-4eff-a045-faae947bfcca"
+      (reference "C?") (unit 1) (value "1uF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/e302883d-9ac6-479b-bee5-f2312f1c985b"
+      (reference "C?") (unit 1) (value "10uF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/f7e1676e-de33-4ae9-a60c-8cd87850df61"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/fd5a9fb2-efed-4d1f-8796-c0de0b5fdc50"
+      (reference "C?") (unit 1) (value "100nF") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/153d2967-cbb2-4add-8e47-5497783cc375"
+      (reference "L?") (unit 1) (value "Ferrite (10uH)") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/e831223d-fce8-4365-8947-d5266fb285ba"
+      (reference "L?") (unit 1) (value "470nH") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/35512899-0d62-49de-a249-86aae1f401a1"
+      (reference "R?") (unit 1) (value "510K") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/9efacd89-313c-438d-a0da-3818161318d1"
+      (reference "R?") (unit 1) (value "1M") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/d56235c9-ea03-4b2f-828e-0e08322e4ef8"
+      (reference "R?") (unit 1) (value "162K") (footprint "")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/4641d5e5-2e49-4770-9702-d907401425ca"
+      (reference "TP1") (unit 1) (value "3.3V") (footprint "")
+    )
     (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/d4d5e971-027b-4246-b05f-a0a5aaaf53df"
       (reference "U1") (unit 1) (value "STM32L053C8T6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349/38637a6f-6799-45d7-a122-bdd57b2f9701"
       (reference "U2") (unit 1) (value "STM32F103CBT6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/4222ccda-015b-478b-afb3-e0d40502a840"
+      (reference "U?") (unit 1) (value "TLV62085RLTR") (footprint "RLT0007A")
+    )
+    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/b8de89ea-c9ff-4851-9a70-1a164333f460"
+      (reference "V1") (unit 1) (value "Vin (5-3.5)V") (footprint "")
     )
   )
 )

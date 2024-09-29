@@ -329,6 +329,10 @@
     [
       "67140130-f424-4e39-9322-f3f2812be349",
       "Embedded ST-LINK V2-1"
+    ],
+    [
+      "6f59428e-8e72-4854-8d86-784df1ffb46d",
+      "Alim + buck converter"
     ]
   ],
   "text_variables": {}
