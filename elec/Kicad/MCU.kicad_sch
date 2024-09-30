@@ -241,7 +241,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 610d8a72-d541-4ed1-bcca-7c61e2720169)
   )
-  (text "VDD/VDDA sont à 3.3V\nVSS/VSSa sont à 0.0V (GND)\nMettre du découplage entre VDD et VDDA pour réduire \nle bruit qui vient des circuit numérique\n\n"
+  (text "VDD/VDDA sont à 3.3V\nVSS/VSSA sont à 0.0V (GND)\nMettre du découplage entre VDD et VDDA pour réduire \nle bruit qui vient des circuit numérique\n\n"
     (at 39.37 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ac0fb9ad-6c13-41ca-a183-9f59c002e350)
