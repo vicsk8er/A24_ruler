@@ -1,305 +1,341 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid a1545928-1195-40b9-b3c4-78f837012afb)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (wire (pts (xy 274.32 133.35) (xy 180.34 133.35))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3e4408d3-8f72-4ea3-9bbf-aaaff5df9ef4)
-  )
-  (wire (pts (xy 180.34 156.21) (xy 274.32 156.21))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5db8c8eb-fb9e-454a-ae6c-6f94be11fb8d)
-  )
-  (wire (pts (xy 180.34 133.35) (xy 180.34 156.21))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b539556c-71b1-4373-bba9-69aadfb1642d)
-  )
-  (wire (pts (xy 274.32 156.21) (xy 274.32 133.35))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid dd5e715f-b254-406b-b948-900d8781a20f)
-  )
-
-  (text "Light sensor\naccelero\nLecteur RFID (pour récup les data / rickroll)\nPtit jeu de merdre sur écran\nFlash light ruler\ndétecteur métaux\nlumière mauve (pour lire les écriture invisible oeil nue)\nChronomètre/horloge sur écran (juste numérique, pas de on ce fait chier mettons)\nmagnétomètre (pour avoir une bousole)"
-    (at 182.88 152.4 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 2d4d8c24-5b38-445b-8733-2a81ba21d33e)
-  )
-  (text "SI ON VEUX CE FAIRE CHIER (idées supplémentaire)" (at 207.01 133.35 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid e790e3b7-c395-4bd1-80fb-8a481dda4c45)
-  )
-
-  (sheet (at 30.48 22.86) (size 41.91 29.21) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 47f0fc71-ff78-496f-bb04-036a9aeaa71c)
-    (property "Sheet name" "MCU and power management" (id 0) (at 30.48 22.1484 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 30.48 52.6546 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 29.21 109.22) (size 59.69 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 494e6d32-1eab-4497-b57f-12dbcea47915)
-    (property "Sheet name" "LCD" (id 0) (at 29.21 108.5084 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "LCD.kicad_sch" (id 1) (at 29.21 133.9346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 87.63 24.13) (size 50.8 29.21) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4cc0ebdd-0f2a-405e-9a30-83f437855272)
-    (property "Sheet name" "Temperature and Humidity Sensor" (id 0) (at 87.63 23.4184 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "temperatureHumiditySensor.kicad_sch" (id 1) (at 87.63 53.9246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 105.41 68.58) (size 66.04 25.4) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 5f7b9d88-eb12-47e8-8ae8-265c4903ec29)
-    (property "Sheet name" "distanceSensor (ToF)" (id 0) (at 105.41 67.8684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "distanceSensor.kicad_sch" (id 1) (at 105.41 94.5646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 184.15 76.2) (size 64.77 22.86) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 60d26db4-b138-46b0-b681-4276ebd1d4cf)
-    (property "Sheet name" "SD card reader (bonus)" (id 0) (at 184.15 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "SDCardReader.kicad_sch" (id 1) (at 184.15 99.6446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 162.56 25.4) (size 64.77 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 67e74fc8-5c9f-4b99-af70-ff2f67e48256)
-    (property "Sheet name" "Joystick and Buttons" (id 0) (at 162.56 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "joystickButtons.kicad_sch" (id 1) (at 162.56 53.9246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 26.67 66.04) (size 49.53 26.67) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 9ce0a5f7-3a13-4b8e-8def-0070d0424087)
-    (property "Sheet name" " Multimètre" (id 0) (at 26.67 65.3284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "multimeter.kicad_sch" (id 1) (at 26.67 93.2946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c" (page "2"))
-    (path "/4cc0ebdd-0f2a-405e-9a30-83f437855272" (page "3"))
-    (path "/67e74fc8-5c9f-4b99-af70-ff2f67e48256" (page "4"))
-    (path "/9ce0a5f7-3a13-4b8e-8def-0070d0424087" (page "5"))
-    (path "/5f7b9d88-eb12-47e8-8ae8-265c4903ec29" (page "6"))
-    (path "/60d26db4-b138-46b0-b681-4276ebd1d4cf" (page "7"))
-    (path "/494e6d32-1eab-4497-b57f-12dbcea47915" (page "8"))
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349" (page "9"))
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d" (page "10"))
-  )
-
-  (symbol_instances
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/29d86fc1-f336-4059-abd0-dbad57fc79d8"
-      (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/2af8f7d7-3bd1-4d40-b9fe-be6fde590393"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/2b365f34-4167-4ab9-b5d8-b7c168c187f7"
-      (reference "#PWR?") (unit 1) (value "+3.3VA") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/3fbb6330-0581-499f-9f36-f36e017e6fec"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/402d10f4-8fc1-47a2-9e15-69ae5097602b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/57930241-9050-4c9f-8c10-4378976ca0c3"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/61115173-96b6-43e8-8542-acc32f8ec1c7"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/848e790d-7469-4bf8-b561-45800778a8c5"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/868fcd85-9777-460c-8407-4f8f281d2f0a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/87d162ab-2509-457d-91f3-b83959063846"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/8db15366-0aed-45e6-8c58-965328db7e78"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/93dcb344-bb4e-4a93-980d-c4cf62240fb8"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/9c18c4e2-b3cd-4c83-9712-2b5e2cef2645"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/b96b9fca-906c-405a-ab50-c83c6e60fbe1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/b9c6526a-371b-41cc-b021-677c5670b1b7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/e8534302-6424-42b3-84cb-491a71f2e92e"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/f34463d5-b86b-454c-ad99-a4ae704f8e65"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/22546e62-5aa1-4ee1-8817-1391f8c2afd9"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/2ff3ff2d-d1a6-4ff4-befe-4b63a8dff9cc"
-      (reference "C?") (unit 1) (value "22uF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/397b8fe3-80c2-4c6e-8a77-066ef5e838a3"
-      (reference "C?") (unit 1) (value "1uF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/66aa193e-8808-4ee2-b339-02634cdff4ce"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/7d84bc6d-616f-4335-b4e7-7dd98ef9d1a7"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/8126bb12-5c8e-48f1-a0ac-2f0bfcced567"
-      (reference "C?") (unit 1) (value "1u") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/88881cce-eff4-467f-93c0-c0e278abc43c"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/9fa91ac9-1a84-4c16-ae08-d4fc1afee474"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/b108ac67-c1d6-4eff-a045-faae947bfcca"
-      (reference "C?") (unit 1) (value "1uF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/bebb2e65-cb46-4e4c-9784-9eec13f00948"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/e302883d-9ac6-479b-bee5-f2312f1c985b"
-      (reference "C?") (unit 1) (value "10uF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/f7e1676e-de33-4ae9-a60c-8cd87850df61"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/fd5a9fb2-efed-4d1f-8796-c0de0b5fdc50"
-      (reference "C?") (unit 1) (value "100nF") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/e52e8c3f-e645-4f55-8c49-ee4491d1fe48"
-      (reference "D1") (unit 1) (value "GREEN") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/57431fe9-e1f7-4e8b-84ff-4d9062b14f8d"
-      (reference "FB?") (unit 1) (value "100R") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/2062b806-1b15-454a-9220-6cc181f88a6b"
-      (reference "J?") (unit 1) (value "USB_B_Micro_COPY") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/f0666437-8ac9-43a0-bf55-ee524334f7bc"
-      (reference "J?") (unit 1) (value "USB_B_Micro_MAIN") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/6b3c3b19-9093-4666-9481-da6ed5cdbe23"
-      (reference "L?") (unit 1) (value "27n") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/e831223d-fce8-4365-8947-d5266fb285ba"
-      (reference "L?") (unit 1) (value "470nH") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/ed555736-2dc0-4b8c-8040-d96ffaff6f66"
-      (reference "Q?") (unit 1) (value "MMS9013HE3") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/35512899-0d62-49de-a249-86aae1f401a1"
-      (reference "R?") (unit 1) (value "510K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/4477b9f7-8807-40d2-9815-33790d08f786"
-      (reference "R?") (unit 1) (value "10K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/461c2cd8-5362-49e8-b2a7-bc217266247b"
-      (reference "R?") (unit 1) (value "100") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/753a8b40-718d-4db6-8fdc-ef37a1bc32cd"
-      (reference "R?") (unit 1) (value "0") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/8ff7e890-dd65-4aeb-bbc6-801be37b5c94"
-      (reference "R?") (unit 1) (value "10K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/98d2198a-58e5-45ad-991c-6ad06733448f"
-      (reference "R?") (unit 1) (value "100K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/9efacd89-313c-438d-a0da-3818161318d1"
-      (reference "R?") (unit 1) (value "1M") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/c32b29cc-c044-4b93-88e5-dbddc249887c"
-      (reference "R?") (unit 1) (value "1K5") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/c6ee863f-94a7-4abb-a4b3-e86de83734e0"
-      (reference "R?") (unit 1) (value "10K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/cf2f72f5-9178-4747-8669-901eae7371bb"
-      (reference "R?") (unit 1) (value "1K5") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/d56235c9-ea03-4b2f-828e-0e08322e4ef8"
-      (reference "R?") (unit 1) (value "162K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/d7772cde-8458-4930-90a2-31ce2a1a65da"
-      (reference "R?") (unit 1) (value "0") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/ef1d183c-e614-4163-88f1-09d645db959e"
-      (reference "R?") (unit 1) (value "36K") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/32c75499-fa5a-48b2-9fa4-09eec76fc673"
-      (reference "SW?") (unit 1) (value "SW_Push_RESET") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/f77ec6f1-b198-4940-aa01-89ae24980275"
-      (reference "SW?") (unit 1) (value "SW_Push_RESET") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/4641d5e5-2e49-4770-9702-d907401425ca"
-      (reference "TP1") (unit 1) (value "3.3V") (footprint "")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/d4d5e971-027b-4246-b05f-a0a5aaaf53df"
-      (reference "U1") (unit 1) (value "STM32L053C8T6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349/38637a6f-6799-45d7-a122-bdd57b2f9701"
-      (reference "U2") (unit 1) (value "STM32F103CBT6") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
-    )
-    (path "/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d/4222ccda-015b-478b-afb3-e0d40502a840"
-      (reference "U?") (unit 1) (value "TLV62085RLTR") (footprint "RLT0007A")
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "a1545928-1195-40b9-b3c4-78f837012afb")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 274.32 133.35) (xy 180.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4408d3-8f72-4ea3-9bbf-aaaff5df9ef4")
+	)
+	(wire
+		(pts
+			(xy 180.34 156.21) (xy 274.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db8c8eb-fb9e-454a-ae6c-6f94be11fb8d")
+	)
+	(wire
+		(pts
+			(xy 180.34 133.35) (xy 180.34 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b539556c-71b1-4373-bba9-69aadfb1642d")
+	)
+	(wire
+		(pts
+			(xy 274.32 156.21) (xy 274.32 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5e715f-b254-406b-b948-900d8781a20f")
+	)
+	(text "Light sensor\naccelero\nLecteur RFID (pour récup les data / rickroll)\nPtit jeu de merdre sur écran\nFlash light ruler\ndétecteur métaux\nlumière mauve (pour lire les écriture invisible oeil nue)\nChronomètre/horloge sur écran (juste numérique, pas de on ce fait chier mettons)\nmagnétomètre (pour avoir une bousole)"
+		(exclude_from_sim no)
+		(at 182.88 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d4d8c24-5b38-445b-8733-2a81ba21d33e")
+	)
+	(text "SI ON VEUX CE FAIRE CHIER (idées supplémentaire)"
+		(exclude_from_sim no)
+		(at 207.01 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e790e3b7-c395-4bd1-80fb-8a481dda4c45")
+	)
+	(sheet
+		(at 30.48 22.86)
+		(size 41.91 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "47f0fc71-ff78-496f-bb04-036a9aeaa71c")
+		(property "Sheetname" "MCU and power management"
+			(at 30.48 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 30.48 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 29.21 109.22)
+		(size 59.69 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "494e6d32-1eab-4497-b57f-12dbcea47915")
+		(property "Sheetname" "LCD"
+			(at 29.21 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 29.21 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 87.63 24.13)
+		(size 50.8 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4cc0ebdd-0f2a-405e-9a30-83f437855272")
+		(property "Sheetname" "Temperature and Humidity Sensor"
+			(at 87.63 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "temperatureHumiditySensor.kicad_sch"
+			(at 87.63 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 68.58)
+		(size 66.04 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5f7b9d88-eb12-47e8-8ae8-265c4903ec29")
+		(property "Sheetname" "distanceSensor (ToF)"
+			(at 105.41 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "distanceSensor.kicad_sch"
+			(at 105.41 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 184.15 76.2)
+		(size 64.77 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "60d26db4-b138-46b0-b681-4276ebd1d4cf")
+		(property "Sheetname" "SD card reader (bonus)"
+			(at 184.15 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDCardReader.kicad_sch"
+			(at 184.15 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 25.4)
+		(size 64.77 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67e74fc8-5c9f-4b99-af70-ff2f67e48256")
+		(property "Sheetname" "Joystick and Buttons"
+			(at 162.56 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "joystickButtons.kicad_sch"
+			(at 162.56 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 66.04)
+		(size 49.53 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ce0a5f7-3a13-4b8e-8def-0070d0424087")
+		(property "Sheetname" " Multimètre"
+			(at 26.67 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "multimeter.kicad_sch"
+			(at 26.67 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
