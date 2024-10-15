@@ -425,6 +425,10 @@
     [
       "6f59428e-8e72-4854-8d86-784df1ffb46d",
       "Alim + buck converter"
+    ],
+    [
+      "486d1226-8ba5-4168-8f64-8ace2267ed6c",
+      "Battery charger management"
     ]
   ],
   "text_variables": {}

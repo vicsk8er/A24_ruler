@@ -2826,7 +2826,7 @@
 		)
 		(uuid "610d8a72-d541-4ed1-bcca-7c61e2720169")
 	)
-	(text "VDD/VDDA sont à 3.3V\nVSS/VSSA sont à 0.0V (GND)\nMettre du découplage entre VDD et VDDA pour réduire \nle bruit qui vient des circuit numérique\n\n"
+	(text "VDD/VDDA sont à 3.3V\nVSS/VSSA sont à 0.0V (GND)\nMettre du découplage entre VDD et VDDA pour réduire \nle bruit qui vient des circuit numérique (fait dans la schematic \"alim + buck converter\")\n\n\n"
 		(exclude_from_sim no)
 		(at 111.506 79.248 0)
 		(effects
