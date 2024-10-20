@@ -971,6 +971,12 @@
 		(color 0 0 0 0)
 		(uuid "cb31d9e9-d8e0-42d8-a849-d9ff062e6c89")
 	)
+	(junction
+		(at 137.16 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf3975c5-98b9-42c9-8061-f2a892e3aa94")
+	)
 	(wire
 		(pts
 			(xy 99.06 80.01) (xy 106.68 80.01)
@@ -1110,6 +1116,16 @@
 			(type default)
 		)
 		(uuid "7a06175a-048b-472e-be42-84353913701e")
+	)
+	(wire
+		(pts
+			(xy 137.16 60.96) (xy 157.48 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8821f869-2fc2-452c-8216-b0db180ca18d")
 	)
 	(wire
 		(pts
@@ -1297,7 +1313,7 @@
 	)
 	(global_label "Vbat"
 		(shape output)
-		(at 163.83 31.75 0)
+		(at 157.48 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1307,7 +1323,7 @@
 		)
 		(uuid "47bf2168-f497-4eea-9b54-7ac99cc3423f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.5078 31.75 0)
+			(at 163.1578 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1333,7 @@
 			)
 		)
 	)
-	(global_label "Vin"
+	(global_label "VinBat"
 		(shape input)
 		(at 58.42 54.61 180)
 		(fields_autoplaced yes)
@@ -1327,9 +1343,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4db414d9-5238-41e9-91a2-d7e699c6799e")
+		(uuid "7b4f5c1b-9816-4285-9d17-5474f0f41e4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.7582 54.61 0)
+			(at 51.2424 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,21 +1366,19 @@
 		(fields_autoplaced yes)
 		(uuid "440d320f-b477-4c2b-9c22-79417e14d044")
 		(property "Reference" "U3"
-			(at 97.79 68.326 90)
+			(at 99.06 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "MCP73831"
-			(at 96.012 72.39 90)
+			(at 99.06 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
