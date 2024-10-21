@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SKRHABE010"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SKRHABE010")
+        (spec "default")
+    )
+)

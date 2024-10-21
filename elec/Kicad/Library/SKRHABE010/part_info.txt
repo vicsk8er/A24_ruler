@@ -1,0 +1,9 @@
+Manufacturer=ALPS Electric
+PartNumber=SKRHABE010
+PartCategory=Switch
+PackageCategory=Other
+PinCount=8
+Version=1.2
+Released=2018-11-15 12:32:13
+Downloaded=2024-10-20 19:44:51
+3D=Y

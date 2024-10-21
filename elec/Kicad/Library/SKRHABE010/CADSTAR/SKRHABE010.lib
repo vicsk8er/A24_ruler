@@ -1,0 +1,16 @@
+.SKRHABE010 :1 ;Multi-Directional Switches 4-directn cntr push W/boss 200K Cycles
+SKRHABE010
+*STM S
+*NGS
+*PLB 1="A" 2="CENTER" 3="C" 4="B" 5="COMMON" 6="D" 7="7" 8="8"
+*MXP 10
+*DFN SKRHABE010
+~!Mouser Part Number (688-SKRHAB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRHABE010?qs=seHrhfPpLDxEOwRqoDvYHw%3D%3D)
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (SKRHABE010)
+~!Link Datasheet (-)
+~!Height (5mm)
+~!3D_Model (SKRHABE010)
+SKRHABE010
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

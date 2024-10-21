@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SKRHABE010'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "SKRHABE010" (!) = "", "SKRHABE010", "Other", "688-SKRHAB", "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRHABE010?qs=seHrhfPpLDxEOwRqoDvYHw%3D%3D", "Multi-Directional Switches 4-directn cntr push W/boss 200K Cycles", "", "5 mm"
+END_PART
+
+END.

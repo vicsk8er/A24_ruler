@@ -1,0 +1,159 @@
+
+(EDIF
+  (rename &SKRHABE010 "SKRHABE010")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 10 20 19 44 51)
+      (dataOrigin "729334/1515700/2.50/8/4/Switch")
+      (program "SamacSys ECAD Model SKRHABE010"
+        (version "1.2"))))
+  (library
+  (rename &SKRHABE010 "SKRHABE010")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &SKRHABE010 "SKRHABE010")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "S")
+          (property (rename PACKAGENAME "PackageName") (string "SKRHABE010"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SKRHABE010"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "688-SKRHAB"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SKRHABE010?qs=seHrhfPpLDxEOwRqoDvYHw%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "ALPS Electric"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "SKRHABE010"))
+          (property (rename &Description "Description") (string "Multi-Directional Switches 4-directn cntr push W/boss 200K Cycles"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string ""))
+          (property (rename &Height "Height") (string "5 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "SKRHABE010"))
+          (property (rename VALUE "Value") (string "Value"))
+          (property (rename &NC "NC") (string "GB1,GB2"))
+          (port
+            (rename &A "A")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &CENTER "CENTER")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &C "C")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &B "B")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &COMMON "COMMON")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &D "D")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &7 "7")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &8 "8")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &A (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -300) (pt 0 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -300))))
+            )
+            (portImplementation
+              (name &CENTER (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -400) (pt 0 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -400))))
+            )
+            (portImplementation
+              (name &C (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &B (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -300) (pt 1200 -300))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -300))))
+            )
+            (portImplementation
+              (name &COMMON (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -400) (pt 1200 -400))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -400))))
+            )
+            (portImplementation
+              (name &D (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1000 -500) (pt 1200 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1200 -500))))
+            )
+            (portImplementation
+              (name &7 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &8 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1000) (pt 500 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1000))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1000 0)
+                  (pt 1000 -800)
+                  (pt 0 -800)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1050 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1050 30))))
+          )
+        )
+      )
+    )
+  )
+)

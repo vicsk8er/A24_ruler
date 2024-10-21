@@ -1269,7 +1269,7 @@
 		)
 		(uuid "4ab13540-e4cb-42b8-ba64-77edf6e3dde3")
 	)
-	(text "charging DEL\n"
+	(text "LED qui indique que la battery recharge"
 		(exclude_from_sim no)
 		(at 82.042 53.34 0)
 		(effects

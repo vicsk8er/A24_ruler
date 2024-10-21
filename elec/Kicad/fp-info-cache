@@ -1,4 +1,11 @@
-1729221770553
+6917631300589
+2765_Adafruit_Joystick
+SW_2765
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57826,6 +57833,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+HTU21D
+QFN100P300X300X100-7N
+
+
+0
+7
+7
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -89885,6 +89899,13 @@ Rotary encoder with switch and illuminated 4,6,8,13,18mm shaft, dual-led, https:
 rotary encoder illuminated switch vertical
 0
 9
+8
+SKRHABE01
+SKRHABE010
+SKRHABE010-1
+Switch
+0
+8
 8
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
