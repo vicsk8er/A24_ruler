@@ -5,4 +5,14 @@
 	(uuid "3e06825b-ab76-492f-aa6c-9b81a161db3f")
 	(paper "A4")
 	(lib_symbols)
+	(text "LCD SPI idéalement\n"
+		(exclude_from_sim no)
+		(at 48.006 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd915ab0-54fb-472c-bae5-2268cd802956")
+	)
 )
