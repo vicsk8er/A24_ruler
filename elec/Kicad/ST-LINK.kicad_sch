@@ -1155,7 +1155,7 @@
 			(uuid "b98d27ec-4f0f-4c4c-ad84-ebca3ef6cd35")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/67140130-f424-4e39-9322-f3f2812be349"
 					(reference "U2")
 					(unit 1)

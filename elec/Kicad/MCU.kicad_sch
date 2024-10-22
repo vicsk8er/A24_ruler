@@ -3739,7 +3739,7 @@
 			(uuid "88bfc177-babd-4751-b422-86373645cfef")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR?")
 					(unit 1)
@@ -3879,7 +3879,7 @@
 			(uuid "17b22e6c-c41c-4687-867e-23d9831dbb4c")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "SW?")
 					(unit 1)
@@ -3949,7 +3949,7 @@
 			(uuid "569dce92-95c3-4017-8bd6-2fc9e82433d3")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "R?")
 					(unit 1)
@@ -4080,7 +4080,7 @@
 			(uuid "342c11ae-2385-400a-9027-e873f39e524b")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR?")
 					(unit 1)
@@ -4290,7 +4290,7 @@
 			(uuid "40da20c6-135a-45f3-9b69-47a47e6496f9")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "C?")
 					(unit 1)
@@ -4423,7 +4423,7 @@
 			(uuid "a518ad0d-b740-4d2c-a499-0d4001e60fa9")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR?")
 					(unit 1)
@@ -4490,7 +4490,7 @@
 			(uuid "88c3ec00-c0ac-4e07-acac-77c86e8bed9a")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR?")
 					(unit 1)
@@ -4757,7 +4757,7 @@
 			(uuid "ef9b38e5-d1d0-449b-b81f-e2317ecb53ce")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR06")
 					(unit 1)
@@ -4822,7 +4822,7 @@
 			(uuid "ba08913a-dde3-483a-878a-1736656535ef")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR?")
 					(unit 1)
@@ -4891,7 +4891,7 @@
 			(uuid "330d7c40-b44e-486b-b7df-19bb69cc3e87")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "C?")
 					(unit 1)
@@ -4962,7 +4962,7 @@
 			(uuid "09e0058c-923e-4b00-8a7b-5c1432cb09c0")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "R?")
 					(unit 1)
@@ -5171,7 +5171,7 @@
 			(uuid "75d9b5f0-4f76-4f61-9d21-ab9c3bbea95b")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "U1")
 					(unit 1)
@@ -5239,7 +5239,7 @@
 			(uuid "c96bb1ce-6bf0-4013-a200-93e62a51690f")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "Y1")
 					(unit 1)
@@ -5370,7 +5370,7 @@
 			(uuid "ff312714-a982-418c-bdf9-5c0f8de08334")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR?")
 					(unit 1)
@@ -5439,7 +5439,7 @@
 			(uuid "9260d2df-a034-409f-a653-3d5826be917d")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "SW?")
 					(unit 1)
@@ -5504,7 +5504,7 @@
 			(uuid "1ec92700-2477-4899-bf27-4e9269c9e6af")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR04")
 					(unit 1)

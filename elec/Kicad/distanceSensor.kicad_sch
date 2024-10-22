@@ -2797,7 +2797,7 @@
 			(uuid "5ebf74f1-dbb0-48c7-9622-cc33b223a0a5")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "J4")
 					(unit 1)
@@ -2963,7 +2963,7 @@
 			(uuid "19c16473-cb0d-43b7-8f73-026a493e23bd")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "U5")
 					(unit 1)
@@ -3106,7 +3106,7 @@
 			(uuid "320d0717-5854-478d-b47f-b2bbfcf0b7ed")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "Q2")
 					(unit 1)
@@ -3253,7 +3253,7 @@
 			(uuid "1f83afc5-220b-4b46-993c-5be23d4a5d3d")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "U6")
 					(unit 1)
@@ -3663,7 +3663,7 @@
 			(uuid "a450ef74-867c-43aa-8bd2-f5a7303e1561")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "#PWR031")
 					(unit 1)
@@ -3733,7 +3733,7 @@
 			(uuid "b315bd66-9668-4a27-95d9-670379cbde0f")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "C10")
 					(unit 1)
@@ -3868,7 +3868,7 @@
 			(uuid "48d26dea-5bb0-4dfd-aeb4-c81f3a67156f")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "#PWR027")
 					(unit 1)
@@ -3937,7 +3937,7 @@
 			(uuid "bce77d90-f6ab-451c-8805-e052bb62bdc7")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "JP1")
 					(unit 1)

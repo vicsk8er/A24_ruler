@@ -3501,7 +3501,7 @@
 			(uuid "2c036dcb-6f88-4ce5-8735-41875d336ada")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
 					(reference "S2")
 					(unit 2)
@@ -4194,7 +4194,7 @@
 			(uuid "0f19cc07-e71f-4add-8d48-c9ee55935d19")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
 					(reference "S1")
 					(unit 1)
@@ -4528,7 +4528,7 @@
 			(uuid "f53d67a9-20f5-468f-9c26-27c26106a4d7")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
 					(reference "#PWR016")
 					(unit 1)
@@ -4936,7 +4936,7 @@
 			(uuid "2c036dcb-6f88-4ce5-8735-41875d336adb")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
 					(reference "S2")
 					(unit 1)

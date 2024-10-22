@@ -900,7 +900,7 @@
 			(uuid "c093f535-d6b0-46cb-95b8-0b4c424ddce8")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/4cc0ebdd-0f2a-405e-9a30-83f437855272"
 					(reference "U4")
 					(unit 1)
@@ -1036,7 +1036,7 @@
 			(uuid "4b2e6b16-78a5-41f4-87bd-b8235b2a69c0")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/4cc0ebdd-0f2a-405e-9a30-83f437855272"
 					(reference "#PWR026")
 					(unit 1)
