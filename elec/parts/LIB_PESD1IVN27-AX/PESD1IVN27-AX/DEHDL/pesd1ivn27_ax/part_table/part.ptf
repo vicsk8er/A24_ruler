@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD1IVN27_AX'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PESD1IVN27-AX" (!) = "", "SOD2512X110N", "Small Outline Diode", "771-PESD1IVN27-AX", "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1IVN27-AX?qs=0lQeLiL1qyYTtxrCfdJstQ%3D%3D", "ESD Suppressors / TVS Diodes ESD protection for In-vehicle networks", "https://assets.nexperia.com/documents/data-sheet/PESD1IVN27-A.pdf", "1.1 mm"
+END_PART
+
+END.

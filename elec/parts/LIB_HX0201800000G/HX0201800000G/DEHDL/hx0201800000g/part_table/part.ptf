@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'HX0201800000G'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "HX0201800000G" (!) = "", "HX0201800000G", "Other", "649-HX02018000J0G", "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/HX0201800000G?qs=Mv7BduZupUjWRzKlnc0xpw%3D%3D", "Fixed Terminal Blocks TB SPRING CLAMP 180D", "", "12.8 mm"
+END_PART
+
+END.

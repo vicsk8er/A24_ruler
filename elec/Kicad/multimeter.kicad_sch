@@ -126,6 +126,610 @@
 				)
 			)
 		)
+		(symbol "F0603G0R03FNTR:F0603G0R03FNTR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "F0603G0R03FNTR"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "F0603G0R03FNTR"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
+				(at 13.97 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.71"
+				(at 13.97 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "581-F0603G0R03FNTR"
+				(at 13.97 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
+				(at 13.97 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Kyocera AVX"
+				(at 13.97 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
+				(at 13.97 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "F0603G0R03FNTR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "F0603G0R03FNTR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "HX0201800000G:HX0201800000G"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "HX0201800000G"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "HX0201800000G"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Terminal Blocks TB SPRING CLAMP 180D"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.8"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "649-HX02018000J0G"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/HX0201800000G?qs=Mv7BduZupUjWRzKlnc0xpw%3D%3D"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "HX0201800000G"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "HX0201800000G_0_0"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "HX0201800000G_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "PESD5V5C1ULYL:PESD5V5C1ULYL"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "PESD5V5C1ULYL"
+				(at -5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PESD5V5C1ULYL:DIO_PESD5V5C1ULYL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "6 April 2023"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PESD5V5C1ULYL_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "K"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -224,84 +828,168 @@
 		)
 	)
 	(junction
-		(at 36.83 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6aedcb66-75a0-4eef-934e-ce093e8f025f")
-	)
-	(junction
 		(at 67.31 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a9491b6b-51b5-4171-9184-fc59530debc4")
+		(uuid "314f72f8-c8e6-4f5d-ad22-40495c6318c5")
 	)
-	(no_connect
-		(at 67.31 97.79)
-		(uuid "9740199d-3526-4795-a618-e6bbb30bfcbb")
+	(junction
+		(at 36.83 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62bb7589-e7d4-4086-b3c2-63bbeaf01171")
 	)
-	(no_connect
-		(at 36.83 97.79)
-		(uuid "c3834aa5-facd-443d-9a2c-0e273077ed96")
+	(junction
+		(at 36.83 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72461079-e30a-4b72-ae19-6da5d8e3367d")
+	)
+	(junction
+		(at 67.31 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2fba51c-c9be-42b2-8203-38958c9d2036")
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 36.83 67.31)
+			(xy 36.83 81.28) (xy 36.83 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00e97a24-4890-48d6-9b0b-0f17869e7b6c")
+		(uuid "1819b418-502b-418a-830a-c885f63ac3a7")
 	)
 	(wire
 		(pts
-			(xy 67.31 29.21) (xy 67.31 67.31)
+			(xy 67.31 67.31) (xy 67.31 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0831f2b0-b2c2-4361-8c2b-2167cd3e2f43")
+		(uuid "3bb075c6-3d2e-4f8a-9461-dfc60632c50c")
 	)
 	(wire
 		(pts
-			(xy 36.83 78.74) (xy 36.83 97.79)
+			(xy 67.31 78.74) (xy 77.47 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d8ff86c-39de-45fb-a0dd-5b26e2bf9eab")
+		(uuid "780cb653-7f4b-4877-b68f-b63d0893b444")
 	)
 	(wire
 		(pts
-			(xy 67.31 78.74) (xy 67.31 97.79)
+			(xy 67.31 58.42) (xy 67.31 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f8a82ee-927f-4f77-baca-9f0263831d54")
+		(uuid "8f2fb0d1-333a-4bb9-92b3-34604d7f134c")
 	)
 	(wire
 		(pts
-			(xy 36.83 74.93) (xy 36.83 78.74)
+			(xy 62.23 97.79) (xy 67.31 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0ab5855-e280-4d37-9c5d-9f392d0baef0")
+		(uuid "9e194c4f-c11f-4d87-9fd8-fc6f82b0f4a5")
 	)
 	(wire
 		(pts
-			(xy 67.31 74.93) (xy 67.31 78.74)
+			(xy 36.83 93.98) (xy 36.83 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef100999-9386-4013-8b01-c6d09f3ba401")
+		(uuid "a11e372d-a64a-497f-9e2c-00aed5c08bb2")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 67.31 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8fd1d27-220a-4d5f-a3b4-909af11147df")
+	)
+	(wire
+		(pts
+			(xy 67.31 29.21) (xy 67.31 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ae54de-1284-4514-a7d9-91c810ff393f")
+	)
+	(wire
+		(pts
+			(xy 67.31 78.74) (xy 67.31 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb807709-86e5-4eef-b74f-bef7c1fce9ce")
+	)
+	(wire
+		(pts
+			(xy 36.83 97.79) (xy 41.91 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e4a7ed-34b5-4b74-834b-35af82405682")
+	)
+	(wire
+		(pts
+			(xy 36.83 67.31) (xy 36.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea26b178-de4c-4126-a10a-2091f1c69f0f")
+	)
+	(wire
+		(pts
+			(xy 26.67 81.28) (xy 36.83 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef793baf-ca73-4517-abb6-f118c25a4f9b")
+	)
+	(wire
+		(pts
+			(xy 36.83 58.42) (xy 36.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69da7ea-109e-4ddc-838d-3c798733177f")
+	)
+	(wire
+		(pts
+			(xy 36.83 29.21) (xy 36.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f77101af-6ad8-4e84-995a-174793890a4e")
 	)
 	(global_label "read_pin_high"
 		(shape input)
@@ -348,35 +1036,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 67.31 71.12 0)
+		(lib_id "power:GND")
+		(at 16.51 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04a0594c-0c4d-4128-b6ff-b22f2eecd872")
-		(property "Reference" "R18"
-			(at 69.85 69.8499 0)
+		(uuid "102b6ac8-1802-4b35-a816-e41ceeed0b01")
+		(property "Reference" "#PWR039"
+			(at 16.51 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "9996"
-			(at 69.85 72.3899 0)
+		(property "Value" "GND"
+			(at 16.51 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 65.532 71.12 90)
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,8 +1071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 67.31 71.12 0)
+		(property "Datasheet" ""
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -393,25 +1080,148 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 67.31 71.12 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c83f84ff-a7fc-4ef2-89fb-c64f5f73d657")
 		)
 		(pin "1"
-			(uuid "19fb4907-ad9d-4846-af9a-deec73f1c36e")
+			(uuid "74e49bb0-13df-41f6-8b1f-eecd0f43c9e8")
 		)
 		(instances
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
-					(reference "R18")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "HX0201800000G:HX0201800000G")
+		(at 41.91 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1db3ec15-3ccd-4768-8376-95bf2ccfd05e")
+		(property "Reference" "J3"
+			(at 51.562 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HX0201800000G"
+			(at 52.07 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "HX0201800000G"
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Terminal Blocks TB SPRING CLAMP 180D"
+			(at 58.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.8"
+			(at 58.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-HX02018000J0G"
+			(at 58.42 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/HX0201800000G?qs=Mv7BduZupUjWRzKlnc0xpw%3D%3D"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 58.42 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HX0201800000G"
+			(at 58.42 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "139719e6-dd1c-4743-95f1-68bf9599872c")
+		)
+		(pin "4"
+			(uuid "934670c3-85e0-4f83-9eed-a936f531c48a")
+		)
+		(pin "2"
+			(uuid "ce9b107d-1440-476e-beab-261fd1076855")
+		)
+		(pin "1"
+			(uuid "15e2f737-65cd-4477-af90-ae1813ca55a7")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -419,7 +1229,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 78.74 90)
+		(at 33.02 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -428,7 +1238,7 @@
 		(fields_autoplaced yes)
 		(uuid "223b851d-41e3-45f3-908d-e7254342f696")
 		(property "Reference" "R22"
-			(at 33.02 72.39 90)
+			(at 33.02 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -436,7 +1246,7 @@
 			)
 		)
 		(property "Value" "833"
-			(at 33.02 74.93 90)
+			(at 33.02 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -444,7 +1254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 80.518 90)
+			(at 33.02 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -453,7 +1263,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 78.74 0)
+			(at 33.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -462,7 +1272,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 78.74 0)
+			(at 33.02 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +1297,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 78.74 270)
+		(at 29.21 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -496,7 +1306,7 @@
 		(fields_autoplaced yes)
 		(uuid "26c6d08a-10ce-45fe-8002-5d9c01a43713")
 		(property "Reference" "#PWR035"
-			(at 22.86 78.74 0)
+			(at 22.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,7 +1315,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.4 78.7399 90)
+			(at 25.4 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +1324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 78.74 0)
+			(at 29.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +1333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 78.74 0)
+			(at 29.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,7 +1342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 78.74 0)
+			(at 29.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,32 +1364,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 78.74 90)
+		(at 67.31 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "594a4694-7476-410e-a212-f5f600951241")
-		(property "Reference" "R23"
-			(at 71.12 72.39 90)
+		(uuid "2a2567ee-8bc1-47c5-819d-5543391b451a")
+		(property "Reference" "R25"
+			(at 69.85 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "833"
-			(at 71.12 74.93 90)
+		(property "Value" "9996"
+			(at 69.85 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 80.518 90)
+			(at 65.532 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +1400,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 78.74 0)
+			(at 67.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +1409,75 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 71.12 78.74 0)
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02317d95-6790-421c-a445-628b64d0a146")
+		)
+		(pin "1"
+			(uuid "1dabefac-3664-4e51-b784-d4f1e733bcaa")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "594a4694-7476-410e-a212-f5f600951241")
+		(property "Reference" "R23"
+			(at 71.12 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "833"
+			(at 71.12 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,8 +1501,117 @@
 		)
 	)
 	(symbol
+		(lib_id "PESD5V5C1ULYL:PESD5V5C1ULYL")
+		(at 21.59 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f5bd543-b9c0-4ac5-9d82-7381a9a78c0a")
+		(property "Reference" "D5"
+			(at 21.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V5C1ULYL"
+			(at 21.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PESD5V5C1ULYL:DIO_PESD5V5C1ULYL"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "6 April 2023"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "7e3718e0-5cba-43f5-8b47-76c2fdcd0e85")
+		)
+		(pin "K"
+			(uuid "48c89508-72dc-4335-8fe2-a92413887f34")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 74.93 78.74 90)
+		(at 74.93 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -631,7 +1620,7 @@
 		(fields_autoplaced yes)
 		(uuid "749e88c4-c76c-427f-a0ef-fa2dafee38f5")
 		(property "Reference" "#PWR034"
-			(at 81.28 78.74 0)
+			(at 81.28 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +1629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 78.7399 90)
+			(at 78.74 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +1638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 78.74 0)
+			(at 74.93 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -658,7 +1647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 78.74 0)
+			(at 74.93 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -667,7 +1656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 78.74 0)
+			(at 74.93 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,17 +1677,438 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 36.83 71.12 0)
+		(lib_id "F0603G0R03FNTR:F0603G0R03FNTR")
+		(at 67.31 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b7c7705-751e-413a-968c-7e1e9c7f8c62")
-		(property "Reference" "R21"
-			(at 39.37 69.8499 0)
+		(uuid "caa52365-e805-4cdc-a03a-8baf12b62f59")
+		(property "Reference" "F2"
+			(at 69.85 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "F0603G0R03FNTR"
+			(at 69.85 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "F0603G0R03FNTR"
+			(at 66.04 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
+			(at 68.58 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.71"
+			(at 73.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-F0603G0R03FNTR"
+			(at 76.2 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
+			(at 78.74 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 81.28 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8384b50-dfdf-416c-9098-8492601ed959")
+		)
+		(pin "2"
+			(uuid "5d2cccba-fdc9-438f-8679-79de4451ed84")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PESD5V5C1ULYL:PESD5V5C1ULYL")
+		(at 82.55 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbd5932b-c4c5-47a6-9cc5-e7d6142182d4")
+		(property "Reference" "D4"
+			(at 82.55 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PESD5V5C1ULYL"
+			(at 82.55 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PESD5V5C1ULYL:DIO_PESD5V5C1ULYL"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "6 April 2023"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 82.55 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "7fd0e00a-6b3e-4666-a512-80c0bf1b568d")
+		)
+		(pin "K"
+			(uuid "a79da4cc-e900-4760-ae57-adbd0b6b312e")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "F0603G0R03FNTR:F0603G0R03FNTR")
+		(at 36.83 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e223b44c-bae0-406c-9811-9e21e8198851")
+		(property "Reference" "F1"
+			(at 39.37 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "F0603G0R03FNTR"
+			(at 39.37 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "F0603G0R03FNTR"
+			(at 35.56 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
+			(at 38.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
+			(at 40.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.71"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-F0603G0R03FNTR"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
+			(at 48.26 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 50.8 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c044c551-9489-4a89-9cc3-932210d22470")
+		)
+		(pin "2"
+			(uuid "9051f217-84a4-4fd5-975e-fdac8bb6c810")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5f5bc9c-a903-446b-ba42-d1992d854f43")
+		(property "Reference" "#PWR038"
+			(at 87.63 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adb7d1eb-31b2-4c3d-94e6-0a10744a6586")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0a60c86-d2ef-4397-a765-531f32d8300a")
+		(property "Reference" "R24"
+			(at 39.37 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -707,7 +2117,7 @@
 			)
 		)
 		(property "Value" "9996"
-			(at 39.37 72.3899 0)
+			(at 39.37 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +2126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.052 71.12 90)
+			(at 35.052 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +2135,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 71.12 0)
+			(at 36.83 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +2144,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 71.12 0)
+			(at 36.83 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,15 +2153,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "22c4e6de-3a50-4e9d-a91b-353bc9376d72")
+			(uuid "0f0f89d5-52d0-4846-8175-48cc61d46e1b")
 		)
 		(pin "1"
-			(uuid "2241d9cc-51bf-4b00-b883-9fe5463bddee")
+			(uuid "6a28cad9-478c-488f-85f4-28b9cce410a3")
 		)
 		(instances
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
-					(reference "R21")
+					(reference "R24")
 					(unit 1)
 				)
 			)

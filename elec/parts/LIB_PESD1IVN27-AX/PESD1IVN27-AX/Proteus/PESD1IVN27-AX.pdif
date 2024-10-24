@@ -1,0 +1,121 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PESD1IVN27-AX"
+   (description "ESD Suppressors / TVS Diodes ESD protection for In-vehicle networks")
+   (family "ANA")
+   (package "SOD2512X110N")
+   (attribute "Datasheet Link" "https://assets.nexperia.com/documents/data-sheet/PESD1IVN27-A.pdf")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Mouser Part Number" "771-PESD1IVN27-AX")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1IVN27-AX?qs=0lQeLiL1qyYTtxrCfdJstQ%3D%3D")
+   (attribute "Manufacturer_Name" "Nexperia")
+   (attribute "Manufacturer_Part_Number" "PESD1IVN27-AX")
+   (gate
+    (symbol "PESD1IVN27-AX")
+    (pin "K1" 1 PS)
+    (pin "K2" 2 PS)
+   )
+  )
+  (symbol "PESD1IVN27-AX"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 200 -100) (pt 200 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 0) (pt 600 -100) (pt 600 100) (pt 400 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -180) (pt 400 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 440 200) (pt 400 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 400 -180) (pt 360 -200))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 20) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOD2512X110N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.975 1.15)
+      (pt 1.975 1.15)
+      (pt 1.975 -1.15)
+      (pt -1.975 -1.15)
+      (pt -1.975 1.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.85 0.625)
+      (pt 0.85 0.625)
+      (pt 0.85 -0.625)
+      (pt -0.85 -0.625)
+      (pt -0.85 0.625))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.85 0.075)
+      (pt -0.3 0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.7 0.625)
+      (pt 0.85 0.625))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.85 -0.625)
+      (pt 0.85 -0.625))))
+   (leg 1 (pt -1.15 0) (padstack 0))
+   (leg 2 (pt 1.15 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.5 1.1 0 0 0))
+   )
+   (model "PESD1IVN27-AX.stp"
+    (euler 90 0 0)
+    (offset -0.7900000214576721 1.3600000143051147 -0.7200000286102295)
+   )
+  )
+ )
+)

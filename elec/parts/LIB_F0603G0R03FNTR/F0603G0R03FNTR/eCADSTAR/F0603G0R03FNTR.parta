@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15352633"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-12-30-11:37:42)
+    (utime 2024-04-02-12:57:52)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "F0603G0R03FNTR")
+)
+
+
+(pinAssign "ECS_15352633"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-12-30-11:37:42)
+    (utime 2024-04-02-12:57:52)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15352633")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "F0603G0R03FNTR")
+)
+
+
+(part "F0603G0R03FNTR"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2021-12-30-11:37:42)
+    (utime 2024-04-02-12:57:52)
+    (packageRef "F0603G0R03FNTR")
+    (pinAssignRef "ECS_15352633")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "F")
+    (property "description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603")
+    (property "Mouser_Part_Number" "581-F0603G0R03FNTR")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D")
+    (property "Manufacturer_Name" "Kyocera AVX")
+    (property "Manufacturer_Part_Number" "F0603G0R03FNTR")
+    (property "Datasheet_Link" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf")
+    (property "compAreaTopHeight" 0.71)
+)
+
+

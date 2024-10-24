@@ -1,0 +1,16 @@
+.PESD1IVN27-AX :1 ;ESD Suppressors / TVS Diodes ESD protection for In-vehicle networks
+SOD2512X110N
+*STM D
+*NGS
+*PLB 1="K1" 2="K2"
+*MXP 2
+*DFN PESD1IVN27-AX
+~!Mouser Part Number (771-PESD1IVN27-AX)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1IVN27-AX?qs=0lQeLiL1qyYTtxrCfdJstQ%3D%3D)
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD1IVN27-AX)
+~!Link Datasheet (https://assets.nexperia.com/documents/data-sheet/PESD1IVN27-A.pdf)
+~!Height (1.1mm)
+~!3D_Model (PESD1IVN27-AX)
+PESD1IVN27-AX
+1.1!U 2.1!U 

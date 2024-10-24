@@ -1,0 +1,135 @@
+
+(EDIF
+  (rename &PESD1IVN27_AX "PESD1IVN27_AX")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2024 10 24 17 21 47)
+      (dataOrigin "1370356/875189/2.50/2/2/Diode ESD (Bi-directional)")
+      (program "SamacSys ECAD Model PESD1IVN27_AX"
+        (version "2.1"))))
+  (library
+  (rename &PESD1IVN27_AX "PESD1IVN27_AX")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &PESD1IVN27_AX "PESD1IVN27_AX")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "D")
+          (property (rename PACKAGENAME "PackageName") (string "PESD1IVN27_AX"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "SOD2512X110N"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "771-PESD1IVN27-AX"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD1IVN27-AX?qs=0lQeLiL1qyYTtxrCfdJstQ%3D%3D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Nexperia"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "PESD1IVN27-AX"))
+          (property (rename &Description "Description") (string "ESD Suppressors / TVS Diodes ESD protection for In-vehicle networks"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://assets.nexperia.com/documents/data-sheet/PESD1IVN27-A.pdf"))
+          (property (rename &Height "Height") (string "1.1 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "PESD1IVN27_AX"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &K1 "K1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &K2 "K2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &K1)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &K2)
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 400 -200) (pt 600 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 0 -300)
+                  (pt 0 -100)
+                  (pt 200 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -200)
+                  (pt 400 -300)
+                  (pt 400 -100)
+                  (pt 200 -200)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -380)
+                  (pt 200 -20)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 240 0)
+                  (pt 200 -20)
+                )
+              )
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 200 -380)
+                  (pt 160 -400)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 400 80))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 400 -20))))
+          )
+        )
+      )
+    )
+  )
+)
