@@ -1349,6 +1349,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4148WS"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0) hide)
@@ -2502,6 +2664,12 @@
 		(uuid "105cf5b4-fa0d-4a2c-9e27-10b3ca3030cd")
 	)
 	(junction
+		(at 237.49 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16adbde2-83f6-4c7d-b639-70f3c77436d3")
+	)
+	(junction
 		(at 44.45 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2512,6 +2680,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "24dc71d7-0211-41d5-be04-52a91422ca60")
+	)
+	(junction
+		(at 226.06 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31cbf853-0f37-442b-81fa-86f1e915337e")
 	)
 	(junction
 		(at 175.26 33.02)
@@ -2580,7 +2754,7 @@
 		(uuid "a1e79f86-0572-4229-af81-ee224d485799")
 	)
 	(junction
-		(at 226.06 115.57)
+		(at 236.22 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5edb7a7-372c-482d-a1c8-43cc44710b46")
@@ -2745,6 +2919,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 97.79) (xy 236.22 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fbe2f26-73f3-49c6-92ad-8d592908b1fe")
+	)
+	(wire
+		(pts
+			(xy 237.49 55.88) (xy 242.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fced4a0-dcec-4c32-a22b-2c77683c6cdd")
+	)
+	(wire
+		(pts
 			(xy 64.77 146.05) (xy 77.47 146.05)
 		)
 		(stroke
@@ -2752,6 +2946,26 @@
 			(type default)
 		)
 		(uuid "116a86b4-c825-4780-97eb-3e446b5d1c09")
+	)
+	(wire
+		(pts
+			(xy 226.06 46.99) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d84983-bcf5-40cf-92d0-e7bf18569aeb")
+	)
+	(wire
+		(pts
+			(xy 226.06 33.02) (xy 226.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eed7416-0469-43ea-94ec-5fd97aee0bcd")
 	)
 	(wire
 		(pts
@@ -2825,16 +3039,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 40.64) (xy 226.06 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f3960e3-929d-4292-84b4-5feb2cb86409")
-	)
-	(wire
-		(pts
 			(xy 93.98 71.12) (xy 104.14 71.12)
 		)
 		(stroke
@@ -2842,6 +3046,16 @@
 			(type default)
 		)
 		(uuid "319bf3ad-920a-4e7e-bab9-0cdfe9230c65")
+	)
+	(wire
+		(pts
+			(xy 237.49 33.02) (xy 237.49 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330a7a39-49ff-42d4-bf67-22e0cae4bf49")
 	)
 	(wire
 		(pts
@@ -2965,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 125.73) (xy 226.06 127)
+			(xy 236.22 116.84) (xy 236.22 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3005,6 +3219,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 33.02) (xy 237.49 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fe3be4-7afb-4b1c-925c-0802c7e21765")
+	)
+	(wire
+		(pts
 			(xy 142.24 71.12) (xy 142.24 87.63)
 		)
 		(stroke
@@ -3025,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 115.57) (xy 236.22 115.57)
+			(xy 236.22 106.68) (xy 242.57 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3205,7 +3429,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 55.88) (xy 232.41 55.88)
+			(xy 231.14 55.88) (xy 237.49 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3629,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 245.11 55.88)
+			(xy 252.73 55.88) (xy 255.27 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3552,6 +3776,16 @@
 			(type default)
 		)
 		(uuid "c2e9d8b6-4dbd-4b42-b5e0-2996530eeedc")
+	)
+	(wire
+		(pts
+			(xy 237.49 45.72) (xy 237.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4be2e94-3b47-47b5-ae25-5d39473a3027")
 	)
 	(wire
 		(pts
@@ -3705,7 +3939,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 115.57) (xy 226.06 118.11)
+			(xy 236.22 106.68) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3745,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 114.3) (xy 226.06 115.57)
+			(xy 236.22 105.41) (xy 236.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3825,16 +4059,6 @@
 		)
 		(uuid "34f2ec57-d946-4fad-81d9-94da8ec02210")
 	)
-	(text "PAS LE BON TYPE DE MOSFET\n"
-		(exclude_from_sim no)
-		(at 259.08 100.584 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "371845e5-b20e-4e86-a86c-c2570c4f3df8")
-	)
 	(text "Découplage entre VDD et VDDA pour réduire le bruit au maximum"
 		(exclude_from_sim no)
 		(at 40.64 124.46 0)
@@ -3865,6 +4089,16 @@
 			)
 		)
 		(uuid "8a2a3714-e2a8-482a-976e-c2ee270a2641")
+	)
+	(text "Quand Vbat = 3.5V, BAT_PERCENT = 2.55V\nQuand Vbat = 4.2V, BAT_PERCENT = 3.07V"
+		(exclude_from_sim no)
+		(at 234.696 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abaee6ab-16fe-41cf-a58e-205c218d87e4")
 	)
 	(text "LED QUI INDIQUE QUE LE CIRCUIT EST ALIMENTÉ"
 		(exclude_from_sim no)
@@ -3898,6 +4132,26 @@
 		)
 		(uuid "d9eb29aa-81ec-492c-9329-1890c0811bdc")
 	)
+	(text "MOSFET P-Channel:\nSi une tension appliqué a la Gate est inférieur a celle de la Source,\nle courant va circuler de la Source au Drain\n\n\n"
+		(exclude_from_sim no)
+		(at 188.722 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e42aef91-d285-49f0-bbbc-11d8bce704fc")
+	)
+	(text "MOSFET N-Channel:\nSi une tension appliqué a la Gate est suppérieur que celle a la Source,\nle courant va circuler du Drain a la Source"
+		(exclude_from_sim no)
+		(at 189.992 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7a7978e-9fbd-4f06-97be-ca2190fef192")
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 171.45 38.1 0)
@@ -3922,7 +4176,7 @@
 	)
 	(global_label "Vin"
 		(shape output)
-		(at 245.11 55.88 0)
+		(at 255.27 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3932,7 +4186,7 @@
 		)
 		(uuid "38c1331b-a723-41f6-a7d3-46224ff648d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.7718 55.88 0)
+			(at 259.9318 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3944,7 +4198,7 @@
 	)
 	(global_label "BAT_PERCENT"
 		(shape output)
-		(at 236.22 115.57 0)
+		(at 242.57 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3954,7 +4208,7 @@
 		)
 		(uuid "49f4573b-94e8-48df-a98f-deaf0724981f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.7679 115.57 0)
+			(at 255.1179 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,24 +4240,24 @@
 			)
 		)
 	)
-	(global_label "BAT_STATUS_COMMAND"
+	(global_label "Vbat"
 		(shape input)
-		(at 237.49 87.63 90)
+		(at 222.25 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "6d0d533b-e514-47d9-8686-40a5abf81a0d")
+		(uuid "669cfae2-1697-48d6-9363-255c0ffe2c59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 68.2603 90)
+			(at 216.5722 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4098,7 +4352,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 110.49 180)
+		(at 236.22 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4106,15 +4360,15 @@
 		(dnp no)
 		(uuid "0ba89363-234b-4e4b-8e12-1b8a19c14eb2")
 		(property "Reference" "R12"
-			(at 228.6 110.744 90)
+			(at 238.76 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 230.632 110.744 90)
+		(property "Value" "110K"
+			(at 240.792 101.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.838 110.49 90)
+			(at 237.998 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 110.49 0)
+			(at 236.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 110.49 0)
+			(at 236.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4419,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 226.06 121.92 180)
+		(at 236.22 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4173,15 +4427,15 @@
 		(dnp no)
 		(uuid "1a1e439e-47cd-4116-b5a9-20b061a761c8")
 		(property "Reference" "R18"
-			(at 228.6 122.174 90)
+			(at 238.76 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 230.632 122.174 90)
+		(property "Value" "300K"
+			(at 240.792 113.284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4443,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.838 121.92 90)
+			(at 237.998 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4452,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 226.06 121.92 0)
+			(at 236.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4461,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 121.92 0)
+			(at 236.22 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,73 +4479,6 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 226.06 36.83 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1dfdfdb0-6273-4464-9f6e-62a64ffa3397")
-		(property "Reference" "R11"
-			(at 228.6 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10"
-			(at 230.632 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.838 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 226.06 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2de35e5d-7498-47cb-ba4b-449dfa832b8b")
-		)
-		(pin "2"
-			(uuid "44f18f6b-c521-4e4d-a570-b8f4ab100e17")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5073,6 +5260,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148WS")
+		(at 237.49 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "432a7967-a828-4c8b-ad13-f19517d73a6b")
+		(property "Reference" "D7"
+			(at 240.03 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148WS"
+			(at 240.03 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 241.935 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
+			(at 237.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
+			(at 237.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 237.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 237.49 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49d06691-d27d-4204-8da9-6277add32184")
+		)
+		(pin "1"
+			(uuid "b891f9c7-9c76-4d69-836f-151d11cfdee7")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 125.73 52.07 0)
 		(unit 1)
@@ -5341,7 +5616,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 237.49 55.88 0)
+		(at 247.65 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5350,7 +5625,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c6662a8-81e1-416b-805d-3184bce78287")
 		(property "Reference" "SW4"
-			(at 237.49 49.53 0)
+			(at 247.65 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5633,7 @@
 			)
 		)
 		(property "Value" "SW_ON/OFF"
-			(at 237.49 52.07 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 55.88 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5650,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 55.88 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5384,7 +5659,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 237.49 55.88 0)
+			(at 247.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6229,7 +6504,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 127 0)
+		(at 236.22 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6237,7 +6512,7 @@
 		(dnp no)
 		(uuid "c2ce9650-ef48-4bad-8888-054ee6cbe3e9")
 		(property "Reference" "#PWR012"
-			(at 226.06 133.35 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 131.064 0)
+			(at 236.22 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 127 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6263,7 +6538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 127 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6272,7 +6547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 127 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,6 +6562,73 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8504ad4-3e71-4b51-a639-c3b0a9a145df")
+		(property "Reference" "R11"
+			(at 228.6 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10"
+			(at 230.632 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.838 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94d37254-f94e-4c70-a2cd-54660109a9ac")
+		)
+		(pin "2"
+			(uuid "3634064d-cd77-4d60-866a-9830462b5742")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -6427,80 +6769,6 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 237.49 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6b7e22f-0c01-44fa-909a-d2b648d24778")
-		(property "Reference" "Q4"
-			(at 237.49 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2323DS-T1"
-			(at 237.49 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 235.585 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-siliconix/SI2323DS-T1-E3/1656350"
-			(at 233.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 237.49 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5f942811-0120-450e-b0b5-fca8daebb8e6")
-		)
-		(pin "1"
-			(uuid "e4d37cf4-7fa5-4b33-b2c7-2a4d44709ef3")
-		)
-		(pin "2"
-			(uuid "67335823-2493-4816-b2cf-29882f822d28")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

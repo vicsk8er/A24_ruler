@@ -1926,7 +1926,7 @@
 		)
 		(uuid cf8b916f-9dc1-4a92-b0a4-611a694e0a51)
 	)
-	(text "joystick:\n1. soit juste un thumb stick (donc pas de bouton, mais on sait que cv marcher)\n2. soit un genre de Alps SKRHABE01 qu'on sait pas si cv marcher mais il va dans les 5 directions\ndonc, on aurait un bouton\n"
+	(text "joystick:\n1. soit juste un thumb stick (donc pas de bouton, mais on sait que cv marcher)\n"
 		(exclude_from_sim no)
 		(at 154.686 20.066 0)
 		(effects
