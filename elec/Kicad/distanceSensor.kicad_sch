@@ -3587,7 +3587,7 @@
 			(uuid "f162c0e5-6f12-4e95-b182-f9eafd85326b")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "TP2")
 					(unit 1)

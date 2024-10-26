@@ -4950,7 +4950,7 @@
 			(uuid "992757cd-51dd-4ed2-b99d-01653e17297a")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "TP3")
 					(unit 1)
@@ -5674,7 +5674,7 @@
 			(uuid "3e5c1026-e06b-4ad3-93bf-cc775fa1e02e")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "SW4")
 					(unit 1)
