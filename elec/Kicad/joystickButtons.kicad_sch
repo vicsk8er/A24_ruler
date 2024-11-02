@@ -2124,7 +2124,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 60.452 119.38 90)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.4952 123.19 0)
 			(effects
 				(font
@@ -2202,7 +2202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk-corporation/C2012X7S1A226M125AC/3951796"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 49.53 119.38 0)
 			(effects
 				(font
@@ -2330,7 +2330,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -2400,7 +2400,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 52.07 40.64 0)
 			(effects
 				(font
@@ -2469,7 +2469,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 49.2252 88.9 0)
 			(effects
 				(font
@@ -2478,7 +2478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk-corporation/C2012X7S1A226M125AC/3951796"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 48.26 85.09 0)
 			(effects
 				(font
@@ -2881,7 +2881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 47.9552 54.61 0)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk-corporation/C2012X7S1A226M125AC/3951796"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -3018,7 +3018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 57.912 50.8 90)
 			(effects
 				(font
@@ -3088,7 +3088,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 53.34 74.93 0)
 			(effects
 				(font
@@ -3158,7 +3158,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 59.182 85.09 90)
 			(effects
 				(font

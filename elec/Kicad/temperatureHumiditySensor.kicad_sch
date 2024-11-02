@@ -628,7 +628,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 80.01) (xy 165.1 80.01)
+			(xy 149.86 80.01) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
@@ -678,7 +678,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 165.1 80.01 0)
+		(at 163.83 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -688,7 +688,7 @@
 		)
 		(uuid "48b16a1a-5c62-4545-a5f3-ce6edaff4e68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.5515 80.01 0)
+			(at 173.2815 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -936,7 +936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 117.1448 76.2 0)
 			(effects
 				(font
@@ -945,7 +945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/tdk-corporation/C2012X7S1A226M125AC/3951796"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
 			(at 118.11 72.39 0)
 			(effects
 				(font
