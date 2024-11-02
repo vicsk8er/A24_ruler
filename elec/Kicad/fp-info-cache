@@ -1,4 +1,4 @@
-295436900740674
+311010672850673
 2765_Adafruit_Joystick
 SW_2765
 
@@ -66506,6 +66506,27 @@ Yellow 5381 Series LED
 0
 2
 2
+LQP03TN27NJ02D
+INDC0603X33N
+
+
+0
+2
+2
+MICRO_SD_CARD_CONN
+GCT_MEM2067-02-180-00-A_REVB
+
+
+0
+12
+12
+MSD_4_A_SD
+CUI_MSD-4-A
+
+
+0
+13
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91146,6 +91167,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SINGLE_DIP_SWITCH
+SW_DS04-254-2-01BK-SMT
+
+
+0
+2
+2
 SKRHABE01
 SKRHABE010
 SKRHABE010-1
@@ -91153,6 +91181,20 @@ Switch
 0
 8
 8
+SMD_FERRITE_BEAD_BLM18EG101TN1D
+BEADC1608X65N
+
+
+0
+2
+2
+SMD_LED_0603
+WL-SMCD_0603
+<B>WL-SMCD SMT Mono-color Chip LED Diffused </B> <BR><BR>Size 0603, SMT, 2pins<BR>1.6x0.8x0.4mm(LXWXH)
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -92819,6 +92861,13 @@ Logo WEEE
 0
 0
 0
+TLV62085RLTR
+RLT0007A
+
+TLV62085RLTR 
+0
+7
+7
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -98454,6 +98503,13 @@ igbt diode module
 0
 25
 25
+VLS252012HBX_R47M_1
+IND_VLS252012HBX-R47M-1
+
+
+0
+2
+2
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -99238,3 +99294,10 @@ Varistor VF
 0
 2
 2
+XRCGB32M000F2P01R0
+OSC_XRCGB32M000F2P01R0
+
+
+0
+4
+4
