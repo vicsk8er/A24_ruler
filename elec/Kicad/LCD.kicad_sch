@@ -1886,10 +1886,22 @@
 		(uuid "93258ca3-2e0e-4e76-8c32-26cfb2059b94")
 	)
 	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a736ef73-2e78-4623-9a2a-08b330ef34f8")
+	)
+	(junction
 		(at 105.41 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0d48e31-1112-49be-a4a5-78ecea1e733a")
+	)
+	(junction
+		(at 213.36 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b3b69433-c8ad-41d5-95f4-f3fcc797cc18")
 	)
 	(junction
 		(at 133.35 132.08)
@@ -2375,7 +2387,7 @@
 	)
 	(text "I2C address=0x30\n"
 		(exclude_from_sim no)
-		(at 207.264 119.38 0)
+		(at 200.914 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2585,7 +2597,7 @@
 	)
 	(text "I2C address=0x29\n"
 		(exclude_from_sim no)
-		(at 169.164 70.612 0)
+		(at 151.13 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3048,6 +3060,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 167.64 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d15fb1f-ffdd-4308-8f31-999a792ff49b")
+		(property "Reference" "#PWR056"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 167.64 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abf9a86e-a1ab-4a9f-acfa-1afcec667b99")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/494e6d32-1eab-4497-b57f-12dbcea47915"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 133.35 135.89 0)
 		(unit 1)
@@ -3295,6 +3373,72 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/494e6d32-1eab-4497-b57f-12dbcea47915"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 213.36 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370f59de-865c-4bd5-b9e9-75ea3e089573")
+		(property "Reference" "#PWR055"
+			(at 213.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 213.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 213.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7206b603-9081-4660-a316-a3bbd2c61669")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/494e6d32-1eab-4497-b57f-12dbcea47915"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

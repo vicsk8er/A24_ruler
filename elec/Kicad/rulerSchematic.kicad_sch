@@ -5,45 +5,17 @@
 	(uuid "a1545928-1195-40b9-b3c4-78f837012afb")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 274.32 133.35) (xy 180.34 133.35)
-		)
+	(rectangle
+		(start 181.61 133.35)
+		(end 267.97 154.94)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "3e4408d3-8f72-4ea3-9bbf-aaaff5df9ef4")
-	)
-	(wire
-		(pts
-			(xy 180.34 156.21) (xy 274.32 156.21)
+		(fill
+			(type none)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db8c8eb-fb9e-454a-ae6c-6f94be11fb8d")
-	)
-	(wire
-		(pts
-			(xy 180.34 133.35) (xy 180.34 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b539556c-71b1-4373-bba9-69aadfb1642d")
-	)
-	(wire
-		(pts
-			(xy 274.32 156.21) (xy 274.32 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd5e715f-b254-406b-b948-900d8781a20f")
+		(uuid 28cac693-b494-446c-94f0-8b78b759ea63)
 	)
 	(text "Light sensor\naccelero\nLecteur RFID (pour récup les data / rickroll)\nPtit jeu de merdre sur écran\nFlash light ruler\ndétecteur métaux\nlumière mauve (pour lire les écriture invisible oeil nue)\nChronomètre/horloge sur écran (juste numérique, pas de on ce fait chier mettons)\nmagnétomètre (pour avoir une bousole)"
 		(exclude_from_sim no)
