@@ -5000,9 +5000,9 @@
 		)
 		(uuid "34f2ec57-d946-4fad-81d9-94da8ec02210")
 	)
-	(text "Si ça scrap, on enlève la resistance \npi on soude le bridge\n"
+	(text "Si ça scrap, on enlève la resistance + mosfet\net on soude le bridge \n"
 		(exclude_from_sim no)
-		(at 255.524 80.518 0)
+		(at 252.476 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
