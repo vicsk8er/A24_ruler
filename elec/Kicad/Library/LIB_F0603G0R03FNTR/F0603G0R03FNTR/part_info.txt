@@ -1,0 +1,9 @@
+Manufacturer=Kyocera AVX
+PartNumber=F0603G0R03FNTR
+PartCategory=Fuse
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-12-30 11:37:42
+Downloaded=2024-10-24 16:20:51
+3D=N

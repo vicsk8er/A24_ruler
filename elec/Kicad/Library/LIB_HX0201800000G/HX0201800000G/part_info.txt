@@ -1,0 +1,9 @@
+Manufacturer=Amphenol
+PartNumber=HX0201800000G
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2024-01-30 14:54:53
+Downloaded=2024-10-24 18:31:36
+3D=Y

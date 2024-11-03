@@ -1404,7 +1404,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HX0201800000G"
+		(property "Footprint" "HX0201800000G:HX0201800000G"
 			(at 58.42 123.19 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "F0603G0R03FNTR"
+		(property "Footprint" "F0603G0R03FNTR:F0603G0R03FNTR"
 			(at 35.56 44.45 0)
 			(effects
 				(font

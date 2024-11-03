@@ -1,0 +1,96 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "F0603G0R03FNTR"
+   (description "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603")
+   (family "FUS")
+   (package "F0603G0R03FNTR")
+   (attribute "Datasheet Link" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf")
+   (attribute "Geometry.Height" "0.71mm")
+   (attribute "Mouser Part Number" "581-F0603G0R03FNTR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D")
+   (attribute "Manufacturer_Name" "Kyocera AVX")
+   (attribute "Manufacturer_Part_Number" "F0603G0R03FNTR")
+   (gate
+    (symbol "F0603G0R03FNTR")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "F0603G0R03FNTR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 500 0))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "F0603G0R03FNTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 -0.405)
+      (pt 0.8 -0.405)
+      (pt 0.8 0.405)
+      (pt -0.8 0.405)
+      (pt -0.8 -0.405))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 1.55)
+      (pt 2.2 1.55)
+      (pt 2.2 -1.55)
+      (pt -2.2 -1.55)
+      (pt -2.2 1.55))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.8 0)
+      (arc (pt -1.800 0.000) (pt -1.800 -0.050) (pt -1.700 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.7 0)
+      (arc (pt -1.700 0.000) (pt -1.800 -0.050) (pt -1.700 0.050) (start 180.0) (sweep .0))
+      (pt -1.8 0)
+      (arc (pt -1.800 0.000) (pt -1.800 -0.050) (pt -1.700 0.050) (start 180.0) (sweep 180.0))
+      (pt -1.7 0))))
+   (leg 1 (pt -0.775 0.000) (padstack 0))
+   (leg 2 (pt 0.775 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.850 1.100 0 0 90.000))
+   )
+  )
+ )
+)

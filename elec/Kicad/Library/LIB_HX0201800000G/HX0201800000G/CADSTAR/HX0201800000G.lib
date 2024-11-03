@@ -1,0 +1,16 @@
+.HX0201800000G :1 ;Fixed Terminal Blocks TB SPRING CLAMP 180D
+HX0201800000G
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN HX0201800000G
+~!Mouser Part Number (649-HX02018000J0G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/HX0201800000G?qs=Mv7BduZupUjWRzKlnc0xpw%3D%3D)
+~!Manufacturer_Name (Amphenol)
+~!Manufacturer_Part_Number (HX0201800000G)
+~!Link Datasheet (-)
+~!Height (12.8mm)
+~!3D_Model (HX0201800000G)
+HX0201800000G
+1.1!U 2.1!U 3.1!U 4.1!U 
