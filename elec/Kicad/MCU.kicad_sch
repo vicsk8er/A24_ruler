@@ -1065,187 +1065,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_ST_STM32L0:STM32L053C8Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2934,7 +2753,7 @@
 		(uuid "40b99383-a5ad-4d8a-83ad-1aa5bb7a29c1")
 	)
 	(junction
-		(at 95.25 53.34)
+		(at 95.25 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c5fede2-4f4c-441f-a370-73cbabd2af27")
@@ -3012,12 +2831,6 @@
 		(uuid "a23876d0-cf99-4642-883d-d4c4eb1a5d58")
 	)
 	(junction
-		(at 156.21 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bef400b3-5f8c-4068-9def-8be78b2ed14f")
-	)
-	(junction
 		(at 49.53 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3085,7 +2898,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 60.96) (xy 102.87 53.34)
+			(xy 102.87 60.96) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3095,7 +2908,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 59.69) (xy 95.25 53.34)
+			(xy 95.25 59.69) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3215,7 +3028,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 129.54) (xy 156.21 129.54)
+			(xy 113.03 129.54) (xy 161.29 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3255,16 +3068,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 156.21 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f8c791-946f-489e-abdc-84a0f2884ef0")
-	)
-	(wire
-		(pts
 			(xy 97.79 142.24) (xy 100.33 142.24)
 		)
 		(stroke
@@ -3282,16 +3085,6 @@
 			(type default)
 		)
 		(uuid "5a6a1005-4136-41f3-931a-67cdb4c3b3af")
-	)
-	(wire
-		(pts
-			(xy 156.21 129.54) (xy 156.21 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6072ce4b-31d7-4702-9917-8c27e94e9770")
 	)
 	(wire
 		(pts
@@ -3535,13 +3328,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 53.34) (xy 95.25 53.34)
+			(xy 102.87 49.53) (xy 95.25 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0102018-8627-40fe-b25a-3b5331ab5df6")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32b441b-99e4-404a-8f00-da9a03befeec")
 	)
 	(wire
 		(pts
@@ -3645,16 +3448,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 129.54) (xy 161.29 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d558e009-15d1-460d-bd36-dcf81e146a00")
-	)
-	(wire
-		(pts
 			(xy 173.99 101.6) (xy 173.99 104.14)
 		)
 		(stroke
@@ -3715,7 +3508,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 53.34) (xy 95.25 50.8)
+			(xy 95.25 49.53) (xy 95.25 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3732,16 +3525,6 @@
 			(type default)
 		)
 		(uuid "ed839209-9d3c-466d-9e57-f15a2b291883")
-	)
-	(wire
-		(pts
-			(xy 156.21 118.11) (xy 156.21 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f19f9752-f0b2-48cc-9e3d-e00b33941585")
 	)
 	(wire
 		(pts
@@ -4115,7 +3898,7 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape input)
+		(shape bidirectional)
 		(at 161.29 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4126,7 +3909,7 @@
 		)
 		(uuid "062780fc-63b8-4b8a-850f-60ef013ba896")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7739 127 0)
+			(at 170.6629 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4293,7 +4076,7 @@
 		)
 	)
 	(global_label "USB_D+"
-		(shape input)
+		(shape bidirectional)
 		(at 161.29 129.54 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4304,7 +4087,7 @@
 		)
 		(uuid "34e68fc1-5d82-459a-be43-9e2ad686bd87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7739 129.54 0)
+			(at 170.6629 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,73 +4965,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3VA_1")
-		(lib_id "power:+3.3VA")
-		(at 100.33 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "101e154c-fe98-440f-b8c6-1093feb75e97")
-		(property "Reference" "#PWR052"
-			(at 100.33 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 100.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc8efb3b-f5ad-4dd4-a87d-575368389815")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 130.81 116.84 0)
 		(unit 1)
@@ -5582,76 +5298,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 156.21 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d7f7d8b-a044-4285-85d2-2740a20bc51d")
-		(property "Reference" "R2"
-			(at 158.75 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K5"
-			(at 158.75 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 154.432 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "03a22071-e4fb-4ae9-bb16-34e4a488ee41")
-		)
-		(pin "2"
-			(uuid "eeea0082-72ee-48ae-8252-7e4a17d951c9")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 26.67 107.95 0)
 		(mirror y)
@@ -5782,6 +5428,73 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3VA_1")
+		(lib_id "power:+3.3VA")
+		(at 100.33 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43eedd0d-5a77-4751-b790-6382af414967")
+		(property "Reference" "#PWR012"
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3VA"
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80bee75e-eac1-4820-98cb-7a925de50237")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6130,7 +5843,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 95.25 50.8 0)
+		(at 95.25 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6139,7 +5852,7 @@
 		(fields_autoplaced yes)
 		(uuid "62d60785-f400-4b4f-bed2-17c73e71082a")
 		(property "Reference" "#PWR050"
-			(at 95.25 54.61 0)
+			(at 95.25 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +5861,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 95.25 45.72 0)
+			(at 95.25 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +5869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 50.8 0)
+			(at 95.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +5878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 50.8 0)
+			(at 95.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +5887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 95.25 50.8 0)
+			(at 95.25 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,73 +6663,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3.3V_1")
-		(lib_id "power:+3.3V")
-		(at 156.21 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b67b95d4-3b6e-4a20-a5bc-7809a5d61119")
-		(property "Reference" "#PWR04"
-			(at 156.21 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6545718d-9bc9-4a09-b8c4-638e9ccb57df")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 173.99 111.76 0)
@@ -7146,76 +6792,6 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 156.21 121.92 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0562cc8-9954-4156-b1a2-6569920e1f99")
-		(property "Reference" "JP3"
-			(at 158.75 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_D+_JUMPER"
-			(at 158.75 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 156.21 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 156.21 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe58e22a-971b-44bc-96bb-a2a6030cdc2f")
-		)
-		(pin "2"
-			(uuid "14f49057-aedd-4e48-b932-8088e2d8a6c3")
-		)
-		(instances
-			(project ""
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c"
-					(reference "JP3")
 					(unit 1)
 				)
 			)
