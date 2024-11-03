@@ -1339,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 58.42) (xy 36.83 67.31)
+			(xy 36.83 59.69) (xy 36.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 36.83 40.64)
+			(xy 36.83 29.21) (xy 36.83 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1988,7 +1988,7 @@
 	)
 	(symbol
 		(lib_id "F0603G0R03FNTR:F0603G0R03FNTR")
-		(at 36.83 58.42 90)
+		(at 36.83 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1997,7 +1997,7 @@
 		(fields_autoplaced yes)
 		(uuid "e223b44c-bae0-406c-9811-9e21e8198851")
 		(property "Reference" "F1"
-			(at 39.37 48.2599 90)
+			(at 39.37 49.5299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2006,7 +2006,7 @@
 			)
 		)
 		(property "Value" "F0603G0R03FNTR"
-			(at 39.37 50.7999 90)
+			(at 39.37 52.0699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2015,7 +2015,7 @@
 			)
 		)
 		(property "Footprint" "F0603G0R03FNTR:F0603G0R03FNTR"
-			(at 35.56 44.45 0)
+			(at 35.56 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2025,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
-			(at 38.1 44.45 0)
+			(at 38.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2035,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
-			(at 40.64 44.45 0)
+			(at 40.64 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 			)
 		)
 		(property "Height" "0.71"
-			(at 43.18 44.45 0)
+			(at 43.18 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2055,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-F0603G0R03FNTR"
-			(at 45.72 44.45 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2065,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
-			(at 48.26 44.45 0)
+			(at 48.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,7 +2075,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 50.8 44.45 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
-			(at 53.34 44.45 0)
+			(at 53.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
