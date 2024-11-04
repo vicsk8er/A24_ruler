@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=MSD-4-A
+PartCategory=Connector
+PackageCategory=Other
+PinCount=13
+Version=2.9
+Released=2024-01-03 14:04:58
+Downloaded=2024-11-04 03:29:11
+3D=Y

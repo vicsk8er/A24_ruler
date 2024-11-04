@@ -2172,7 +2172,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_Gauche_LOG_EXIT"
+		(property "Value" "SW_Push_Action_LOG_EXIT"
 			(at 35.814 109.474 0)
 			(effects
 				(font
@@ -3066,7 +3066,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_Push_Gauche_GO_BACK"
+		(property "Value" "SW_Push_Droite_GO_BACK"
 			(at 34.544 75.184 0)
 			(effects
 				(font
