@@ -5906,7 +5906,7 @@
 			(uuid "463813b5-0abc-4a0e-8cfc-6de3a11cbe79")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "#FLG03")
 					(unit 1)
@@ -6604,7 +6604,7 @@
 			(uuid "83bc5d76-d0bf-4287-a7dc-21c3c8029600")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "#FLG05")
 					(unit 1)
@@ -6781,7 +6781,7 @@
 			(uuid "affc130f-4d5a-4e0d-9550-3e13c683be18")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "S1")
 					(unit 1)
@@ -7018,7 +7018,7 @@
 			(uuid "c715938d-97f6-493f-bac9-760d38b46567")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "#FLG02")
 					(unit 1)
@@ -7587,7 +7587,7 @@
 			(uuid "f90bfecf-da45-4591-824c-1de14108dd74")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "U9")
 					(unit 1)
@@ -8490,7 +8490,7 @@
 			(uuid "0a009aec-812e-4485-8056-ef48b668534e")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "L1")
 					(unit 1)

@@ -1507,7 +1507,7 @@
 			(uuid "86e4715b-6b15-4ce3-963f-b2b149402881")
 		)
 		(instances
-			(project ""
+			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/60d26db4-b138-46b0-b681-4276ebd1d4cf"
 					(reference "J8")
 					(unit 1)

@@ -341,6 +341,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -1170,16 +1306,16 @@
 		(uuid "290c3b73-1eb8-445c-a0ad-ce8185a832b0")
 	)
 	(junction
-		(at 69.85 67.31)
+		(at 41.91 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6f970017-79fe-401f-a24b-00d8a7f3ca16")
+		(uuid "477e48f2-ac18-4b22-ae69-de6b4ecf4a1a")
 	)
 	(junction
-		(at 36.83 67.31)
+		(at 69.85 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "72461079-e30a-4b72-ae19-6da5d8e3367d")
+		(uuid "9927db0f-e9bc-40b6-8d5e-ae7389ce6e80")
 	)
 	(junction
 		(at 36.83 111.76)
@@ -1187,15 +1323,17 @@
 		(color 0 0 0 0)
 		(uuid "9cc87649-9502-4962-972f-671a025c863c")
 	)
-	(wire
-		(pts
-			(xy 69.85 95.25) (xy 69.85 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00afe74e-0f57-4fcc-8341-dcae6332a931")
+	(junction
+		(at 36.83 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c340b1c4-c614-4eb4-a558-5a385046826d")
+	)
+	(junction
+		(at 62.23 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca765781-ff42-4a68-b9a5-62b7a3e6b41e")
 	)
 	(wire
 		(pts
@@ -1206,6 +1344,26 @@
 			(type default)
 		)
 		(uuid "1824783c-969b-4427-822f-d1b45cf8045b")
+	)
+	(wire
+		(pts
+			(xy 41.91 125.73) (xy 41.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f0bbfd-d467-4260-bb86-771d93ae7802")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 69.85 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a55b4d9-7309-4ca2-ac3b-95def707a4de")
 	)
 	(wire
 		(pts
@@ -1229,13 +1387,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 67.31) (xy 46.99 67.31)
+			(xy 36.83 105.41) (xy 46.99 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "450d0c79-4172-4775-9498-bcb0e5bd8609")
+	)
+	(wire
+		(pts
+			(xy 69.85 29.21) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580dab2d-5176-42c2-a184-3db3eee00e87")
 	)
 	(wire
 		(pts
@@ -1249,7 +1417,27 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 67.31) (xy 69.85 67.31)
+			(xy 62.23 125.73) (xy 62.23 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62965bca-25f5-4bba-8bf6-fe53f1641c15")
+	)
+	(wire
+		(pts
+			(xy 36.83 105.41) (xy 36.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d8750b-0996-4ce5-a66c-56abb2ffe453")
+	)
+	(wire
+		(pts
+			(xy 57.15 105.41) (xy 69.85 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1289,13 +1477,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 67.31) (xy 36.83 111.76)
+			(xy 36.83 59.69) (xy 36.83 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a2b4773f-973e-48c3-b172-6e5216382872")
+	)
+	(wire
+		(pts
+			(xy 69.85 82.55) (xy 69.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a55d9172-3a78-4953-bd68-028b249388c3")
 	)
 	(wire
 		(pts
@@ -1329,26 +1527,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 29.21) (xy 69.85 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5fe947b-22d6-47f0-95e5-8e02cb9d8745")
-	)
-	(wire
-		(pts
-			(xy 36.83 59.69) (xy 36.83 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f69da7ea-109e-4ddc-838d-3c798733177f")
-	)
-	(wire
-		(pts
 			(xy 36.83 29.21) (xy 36.83 41.91)
 		)
 		(stroke
@@ -1376,6 +1554,76 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 69.85 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "042a4ebf-d3ef-450b-bdaf-cc805bb09e5f")
+		(property "Reference" "C5"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 68.8848 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63867dd9-96f8-4626-9a29-4b4f7703bb3a")
+		)
+		(pin "2"
+			(uuid "38b577cf-60fa-4581-bc17-b75f90fccee2")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "C5")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1642,7 +1890,7 @@
 	)
 	(symbol
 		(lib_id "PESD5V5C1ULYL:PESD5V5C1ULYL")
-		(at 52.07 67.31 0)
+		(at 52.07 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1651,7 +1899,7 @@
 		(fields_autoplaced yes)
 		(uuid "2820f9b7-368b-4695-82ad-8a2c6a03ea9a")
 		(property "Reference" "D6"
-			(at 52.07 60.96 0)
+			(at 52.07 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1659,7 +1907,7 @@
 			)
 		)
 		(property "Value" "PESD5V5C1ULYL"
-			(at 52.07 63.5 0)
+			(at 52.07 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1915,7 @@
 			)
 		)
 		(property "Footprint" "PESD5V5C1ULYL:DIO_PESD5V5C1ULYL"
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,7 +1943,7 @@
 			)
 		)
 		(property "PARTREV" "6 April 2023"
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1953,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1963,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1973,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Nexperia"
-			(at 52.07 67.31 0)
+			(at 52.07 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +2006,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56151418-8787-4477-8855-a805ad864eec")
+		(uuid "3595bfca-42f0-4c2b-8074-c2472c778834")
 		(property "Reference" "D4"
 			(at 72.39 99.0599 90)
 			(effects
@@ -1906,15 +2154,138 @@
 			)
 		)
 		(pin "C"
-			(uuid "a69a87cb-3c37-42fb-8311-b6bbedf3a979")
+			(uuid "65789ec4-a91a-4b98-9575-5f8ff9096ea6")
 		)
 		(pin "A"
-			(uuid "93ad09e3-9c2c-4a21-810f-64a9e30b7dd0")
+			(uuid "7bc3dd71-9aa1-4aea-877b-ee09d0075251")
 		)
 		(instances
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "F0603G0R03FNTR:F0603G0R03FNTR")
+		(at 69.85 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "615a454d-7d74-495c-b31f-94b2ede2e52a")
+		(property "Reference" "F2"
+			(at 72.39 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "F0603G0R03FNTR"
+			(at 72.39 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "F0603G0R03FNTR:F0603G0R03FNTR"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
+			(at 73.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.71"
+			(at 76.2 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-F0603G0R03FNTR"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
+			(at 81.28 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 83.82 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
+			(at 86.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a995c2f-d409-4654-80f3-12a5f6390bcc")
+		)
+		(pin "2"
+			(uuid "55fa595f-f3c2-4a44-b85f-da5f97d4e78a")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "F2")
 					(unit 1)
 				)
 			)
