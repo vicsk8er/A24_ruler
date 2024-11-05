@@ -1,10 +1,3 @@
-(global_label "read_pin" (shape output) (at 21.59 22.86 90) (fields_autoplaced yes)
-  (effects (font (size 1.27 1.27)) (justify left))
-(uuid "17bd99b3-30e5-4be1-9bc1-50dd225e356c")
-  (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 21.59 11.8316 90)
-    (effects (font (size 1.27 1.27)) (justify left) (hide yes))
-  )
-)
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
