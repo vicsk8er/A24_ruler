@@ -1086,49 +1086,50 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
+		(symbol "tacticleSwitch4_5x4_5mm:PTS647SN70SMTR2LFS"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Value" "PTS647SN70SMTR2LFS"
+				(at 20.32 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Footprint" "SWITCH_TR2LFS"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Datasheet" "PTS647SN70SMTR2LFS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1137,7 +1138,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PTS647SN70SMTR2LFS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1146,12 +1155,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "ki_fp_filters" "SWITCH_TR2LFS SWITCH_TR2LFS-M SWITCH_TR2LFS-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PTS647SN70SMTR2LFS_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 33.02 -7.62)
+					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1160,10 +1179,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 7.62 5.08) (xy 7.62 -7.62)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -1172,30 +1191,31 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 33.02 -7.62) (xy 33.02 5.08)
 					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
 					(stroke
-						(width 0)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
 					(name "1"
 						(effects
 							(font
@@ -1211,9 +1231,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
 					(name "2"
 						(effects
 							(font
@@ -1229,23 +1249,71 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
+	)
+	(junction
+		(at 119.38 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1446f425-8f64-4cdc-a3c8-5ea3d48d571a")
+	)
+	(junction
+		(at 119.38 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5603be6d-8490-4779-a506-afa00a48ac55")
 	)
 	(junction
 		(at 46.99 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "36c75d24-a4e3-4bf1-8081-36ec11637cc3")
+		(uuid "9b29fbca-6d28-4e1d-9c60-dc9abccc8aa9")
 	)
 	(junction
-		(at 60.96 80.01)
+		(at 49.53 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6c3bc03e-a269-43b8-b052-35386ec1ceba")
+		(uuid "a2d8c626-229e-4ffe-9265-8d5e19f5fd9e")
 	)
 	(junction
-		(at 57.15 90.17)
+		(at 58.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8ef1a07-87e0-49a2-b0db-582c7b7c117e")
@@ -1257,78 +1325,90 @@
 		(uuid "ce957226-45b2-4add-a459-daf74564f48d")
 	)
 	(junction
-		(at 59.69 45.72)
+		(at 120.65 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "de67e1a2-f9af-4c0d-8785-f81d5111dbb8")
+		(uuid "d305501a-e8f1-43d7-a264-356d020bb6a6")
 	)
 	(junction
-		(at 48.26 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1b65d0e-0708-4d37-98b5-4623f53d2041")
-	)
-	(junction
-		(at 62.23 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3eb6956-ceb8-4e68-a87d-8257d1f8f805")
-	)
-	(junction
-		(at 58.42 124.46)
+		(at 58.42 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaa88336-5153-4bd6-b885-f964f772a60c")
 	)
 	(junction
-		(at 49.53 114.3)
+		(at 49.53 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6109f80-f28a-4b08-a09b-e5cfa4439834")
+		(uuid "f2cd09c6-18c7-41ef-aef0-3f31f731393b")
+	)
+	(no_connect
+		(at 59.69 146.05)
+		(uuid "a3beba99-9402-4588-8f86-c06b25eb8a8b")
+	)
+	(no_connect
+		(at 63.5 96.52)
+		(uuid "abafe091-d810-4721-beab-6b97121dea40")
+	)
+	(no_connect
+		(at 102.87 45.72)
+		(uuid "ade8801a-d54d-4fcc-90ac-ce8f9652ee49")
+	)
+	(no_connect
+		(at 100.33 143.51)
+		(uuid "b94dd9fa-1f9d-494d-b0ac-001cc283d197")
+	)
+	(no_connect
+		(at 62.23 48.26)
+		(uuid "da174629-9e39-4b1f-a2ba-ff5cc38a83bb")
+	)
+	(no_connect
+		(at 104.14 93.98)
+		(uuid "f685ec2f-9c47-43a9-8c44-bd3385964b8a")
 	)
 	(wire
 		(pts
-			(xy 58.42 124.46) (xy 62.23 124.46)
+			(xy 104.14 96.52) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a64fa2c-aea2-47ab-aca0-2de6ed01c703")
+		(uuid "148a9c5d-cc44-4521-b635-9a3e4d50b228")
 	)
 	(wire
 		(pts
-			(xy 59.69 36.83) (xy 59.69 45.72)
+			(xy 58.42 153.67) (xy 120.65 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12a86064-5758-4d3b-b401-6685664562ac")
+		(uuid "1f666213-accf-44b9-ad1a-860b858fd597")
 	)
 	(wire
 		(pts
-			(xy 62.23 124.46) (xy 62.23 123.19)
+			(xy 55.88 55.88) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1549bd77-064b-40af-beeb-0333a2fbe552")
+		(uuid "1f7ed97e-41a8-4398-ad70-2c96378a3f7d")
 	)
 	(wire
 		(pts
-			(xy 60.96 81.28) (xy 60.96 80.01)
+			(xy 49.53 143.51) (xy 59.69 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ddfde6c-2b16-4cea-9d3f-3688d0c91f5a")
+		(uuid "22a91615-924b-46b8-9619-e153c46a4dff")
 	)
 	(wire
 		(pts
-			(xy 58.42 124.46) (xy 58.42 127)
+			(xy 58.42 153.67) (xy 58.42 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 114.3) (xy 49.53 114.3)
+			(xy 46.99 143.51) (xy 49.53 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1348,17 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 90.17) (xy 60.96 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb3c0bc-5a2b-4ebe-b2f8-fbb6fa080d27")
-	)
-	(wire
-		(pts
-			(xy 49.53 124.46) (xy 58.42 124.46)
+			(xy 49.53 153.67) (xy 58.42 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 80.01) (xy 48.26 81.28)
+			(xy 49.53 93.98) (xy 49.53 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 71.12) (xy 60.96 80.01)
+			(xy 119.38 85.09) (xy 119.38 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 156.21) (xy 152.4 154.94)
+			(xy 251.46 36.83) (xy 251.46 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1398,23 +1468,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 55.88) (xy 59.69 55.88)
+			(xy 100.33 146.05) (xy 120.65 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52cb8888-2fae-4ddb-8ed9-92305186d334")
+		(uuid "5c241b41-0e5b-4261-9716-9fb8679df4a6")
 	)
 	(wire
 		(pts
-			(xy 62.23 105.41) (xy 62.23 114.3)
+			(xy 49.53 93.98) (xy 63.5 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53074c13-c234-41f7-a6c9-3c2029dedb71")
+		(uuid "61f43c39-d58a-42cf-ab8f-62c7fbaa1285")
 	)
 	(wire
 		(pts
@@ -1428,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 62.23 114.3)
+			(xy 120.65 134.62) (xy 120.65 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 80.01) (xy 48.26 80.01)
+			(xy 46.99 93.98) (xy 49.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 46.99) (xy 59.69 45.72)
+			(xy 119.38 36.83) (xy 119.38 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1528,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 149.86) (xy 166.37 149.86)
+			(xy 259.08 30.48) (xy 265.43 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1478,17 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 60.96 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9738b16c-0451-4a57-86f7-9b3fb4c58b86")
-	)
-	(wire
-		(pts
-			(xy 144.78 175.26) (xy 138.43 175.26)
+			(xy 243.84 55.88) (xy 237.49 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 88.9) (xy 48.26 90.17)
+			(xy 49.53 102.87) (xy 49.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1568,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 148.59) (xy 166.37 149.86)
+			(xy 265.43 29.21) (xy 265.43 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 175.26) (xy 138.43 177.8)
+			(xy 237.49 55.88) (xy 237.49 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1528,17 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 90.17) (xy 60.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9da21611-1f03-497b-8a0f-b4b1893f820e")
-	)
-	(wire
-		(pts
-			(xy 138.43 149.86) (xy 138.43 152.4)
+			(xy 237.49 30.48) (xy 237.49 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 123.19) (xy 49.53 124.46)
+			(xy 49.53 152.4) (xy 49.53 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 149.86) (xy 138.43 149.86)
+			(xy 243.84 30.48) (xy 237.49 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 181.61) (xy 152.4 180.34)
+			(xy 251.46 62.23) (xy 251.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 90.17) (xy 57.15 92.71)
+			(xy 58.42 104.14) (xy 58.42 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 114.3) (xy 49.53 115.57)
+			(xy 49.53 143.51) (xy 49.53 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1618,27 +1668,17 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 45.72) (xy 59.69 45.72)
+			(xy 46.99 45.72) (xy 62.23 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfd6e52c-0d0d-45d0-834a-e42633addb7c")
+		(uuid "c442197a-fef4-406f-81e3-e6e6e265c7a8")
 	)
 	(wire
 		(pts
-			(xy 59.69 114.3) (xy 62.23 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06e7256-eada-4473-9a09-6df754e710bb")
-	)
-	(wire
-		(pts
-			(xy 166.37 172.72) (xy 166.37 175.26)
+			(xy 265.43 53.34) (xy 265.43 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1648,17 +1688,17 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 59.69 54.61)
+			(xy 58.42 104.14) (xy 119.38 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d92217f0-36d7-4c27-8c21-ea256e5cc246")
+		(uuid "e0eb7836-a839-4ad7-838f-8e7937877063")
 	)
 	(wire
 		(pts
-			(xy 160.02 175.26) (xy 166.37 175.26)
+			(xy 259.08 55.88) (xy 265.43 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1718,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 90.17) (xy 57.15 90.17)
+			(xy 102.87 48.26) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3747ab-6bd7-4647-8d33-f76d1725a687")
+	)
+	(wire
+		(pts
+			(xy 49.53 104.14) (xy 58.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1687,8 +1737,8 @@
 		(uuid "fded9eca-2b2f-4301-8975-3231313495e6")
 	)
 	(rectangle
-		(start 128.27 140.97)
-		(end 175.26 193.04)
+		(start 227.33 21.59)
+		(end 274.32 73.66)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1697,18 +1747,6 @@
 			(type none)
 		)
 		(uuid c181a7af-84a1-42e7-b736-51c7f5ceb700)
-	)
-	(rectangle
-		(start 19.05 29.21)
-		(end 97.79 181.61)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cf8b916f-9dc1-4a92-b0a4-611a694e0a51)
 	)
 	(text "joystick:\n1. soit juste un thumb stick (donc pas de bouton, mais on sait que cv marcher)\n"
 		(exclude_from_sim no)
@@ -1722,7 +1760,7 @@
 	)
 	(text "Thumb joystick Adafruit (2765). Il n'y a pas de bouton"
 		(exclude_from_sim no)
-		(at 152.4 136.906 0)
+		(at 251.46 17.526 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1752,7 +1790,7 @@
 	)
 	(text "click droit / aller revenir d'une option (retourner dans le menu)"
 		(exclude_from_sim no)
-		(at 55.88 64.516 0)
+		(at 61.468 66.294 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1762,7 +1800,7 @@
 	)
 	(text "click \"log info\" (ex: valeur de temp, distance...) / Exit de la magouille ultime"
 		(exclude_from_sim no)
-		(at 57.15 99.568 0)
+		(at 58.42 113.538 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1772,7 +1810,7 @@
 	)
 	(global_label "JOYSTICK_Y"
 		(shape output)
-		(at 152.4 181.61 270)
+		(at 251.46 62.23 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1782,7 +1820,7 @@
 		)
 		(uuid "2599f0b1-8a49-40f1-9f7e-495c2abe2475")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 192.6098 90)
+			(at 251.46 73.2298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1794,7 +1832,7 @@
 	)
 	(global_label "JOYSTICK_X"
 		(shape output)
-		(at 152.4 156.21 270)
+		(at 251.46 36.83 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1804,7 +1842,7 @@
 		)
 		(uuid "5b4577be-5677-4335-bf2d-737a9e8fbc58")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 167.3065 90)
+			(at 251.46 47.9265 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,7 +1876,7 @@
 	)
 	(global_label "PB10_Bouton_BACK"
 		(shape output)
-		(at 45.72 80.01 180)
+		(at 46.99 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1848,7 +1886,7 @@
 		)
 		(uuid "db5f88bd-134b-41f7-8458-bdf6b6d65de0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 28.6244 80.01 0)
+			(at 29.8944 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1860,7 +1898,7 @@
 	)
 	(global_label "PB2_Bouton_LOG"
 		(shape output)
-		(at 46.99 114.3 180)
+		(at 46.99 143.51 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1870,7 +1908,7 @@
 		)
 		(uuid "eeb3f529-9b52-45a4-8f16-81b1297dfb68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.878 114.3 0)
+			(at 31.878 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1882,16 +1920,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 62.23 119.38 0)
+		(at 120.65 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "03278e30-7f14-46fd-acf8-c924164f8560")
 		(property "Reference" "R14"
-			(at 64.77 118.1099 0)
+			(at 123.19 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,7 +1937,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 64.77 120.6499 0)
+			(at 123.19 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1946,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 60.452 119.38 90)
+			(at 118.872 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1955,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
-			(at 62.23 119.38 0)
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1964,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 119.38 0)
+			(at 120.65 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1989,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 119.38 0)
+		(at 49.53 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1960,7 +1997,7 @@
 		(dnp no)
 		(uuid "03f1d82b-4619-4ced-b265-e5889e8f3402")
 		(property "Reference" "C8"
-			(at 41.91 118.11 0)
+			(at 41.91 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,7 +2006,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 41.91 120.65 0)
+			(at 41.91 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +2015,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 50.4952 123.19 0)
+			(at 50.4952 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2024,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 49.53 119.38 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2033,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 119.38 0)
+			(at 49.53 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2059,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 60.96 71.12 0)
+		(at 119.38 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2031,7 +2068,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bd77bbf-cf53-4862-b5af-42b69434edc2")
 		(property "Reference" "#PWR023"
-			(at 60.96 74.93 0)
+			(at 119.38 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2077,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 60.96 66.04 0)
+			(at 119.38 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 71.12 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 71.12 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2103,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 60.96 71.12 0)
+			(at 119.38 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2089,7 +2126,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 138.43 152.4 0)
+		(at 237.49 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2098,7 +2135,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d23e241-171e-4471-b11b-41f109d3c0ec")
 		(property "Reference" "#PWR019"
-			(at 138.43 158.75 0)
+			(at 237.49 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2144,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 157.48 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 152.4 0)
+			(at 237.49 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 152.4 0)
+			(at 237.49 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 152.4 0)
+			(at 237.49 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2154,53 +2191,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 54.61 114.3 0)
-		(mirror y)
+		(lib_id "tacticleSwitch4_5x4_5mm:PTS647SN70SMTR2LFS")
+		(at 59.69 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "13033a8d-f29a-4b83-adaf-b4136f5d9246")
+		(fields_autoplaced yes)
+		(uuid "12d75e7b-4166-48ea-b155-b94592e99aff")
 		(property "Reference" "SW3"
-			(at 49.53 111.76 0)
+			(at 80.01 133.35 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "SW_Push_Action_LOG_EXIT"
-			(at 35.814 109.474 0)
+			(at 80.01 135.89 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
-			(at 54.61 109.22 0)
+		(property "Footprint" "tacticleSwitch4_5x4_5mm:SWITCH_TR2LFS"
+			(at 59.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 54.61 109.22 0)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/c-k/PTS-647-SN70-SMTR2-LFS/9649854"
+			(at 59.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 54.61 114.3 0)
+			(at 59.69 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,14 +2245,20 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "12ba9415-c60e-444b-97c5-ae133271c83c")
+		(pin "3"
+			(uuid "56d1f2c1-3e60-42a8-860f-14dc05e1f193")
 		)
 		(pin "2"
-			(uuid "10b18f66-8185-427b-ac7a-81907636a75f")
+			(uuid "725d1105-4178-4f23-981d-154032af2fbe")
+		)
+		(pin "1"
+			(uuid "c5e0dfa2-6196-4071-881c-090d01a82573")
+		)
+		(pin "4"
+			(uuid "8e7c9af1-ae33-4506-892d-87a1f9adbf76")
 		)
 		(instances
-			(project "rulerSchematic"
+			(project ""
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
 					(reference "SW3")
 					(unit 1)
@@ -2232,7 +2275,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1943be1f-6344-4df0-8afd-32f912434468")
 		(property "Reference" "#PWR01"
 			(at 55.88 64.77 0)
@@ -2291,79 +2333,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 52.07 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24608ac4-915c-42ea-8afe-399a8605788c")
-		(property "Reference" "SW1"
-			(at 46.99 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Gauche_GO_IN"
-			(at 36.068 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 52.07 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "404fe0bd-10fa-4256-85b6-676cafe63dcd")
-		)
-		(pin "2"
-			(uuid "c319c72c-0721-4c16-9852-8e6a9188ed29")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 57.15 92.71 0)
+		(at 58.42 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2372,7 +2344,7 @@
 		(fields_autoplaced yes)
 		(uuid "28939c9c-1d95-45cb-b731-1b17a00dab15")
 		(property "Reference" "#PWR022"
-			(at 57.15 99.06 0)
+			(at 58.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 97.79 0)
+			(at 58.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 92.71 0)
+			(at 58.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 92.71 0)
+			(at 58.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,7 +2379,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 92.71 0)
+			(at 58.42 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,8 +2400,84 @@
 		)
 	)
 	(symbol
+		(lib_id "tacticleSwitch4_5x4_5mm:PTS647SN70SMTR2LFS")
+		(at 63.5 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2913627e-b4ed-4b80-95dc-f68872389664")
+		(property "Reference" "SW2"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Droite_GO_BACK"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "tacticleSwitch4_5x4_5mm:SWITCH_TR2LFS"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/c-k/PTS-647-SN70-SMTR2-LFS/9649854"
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0ccc3e35-fc1a-4cf2-95e2-fa2ed33ea3e7")
+		)
+		(pin "2"
+			(uuid "57fd6104-3ed6-4b3c-9473-d6d2a96e61af")
+		)
+		(pin "1"
+			(uuid "d490eb63-d5dc-4859-82b1-96b7fc28d8d2")
+		)
+		(pin "4"
+			(uuid "2c0ac1be-b0ff-469a-8a88-22ec1a25a884")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 48.26 85.09 0)
+		(at 49.53 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2437,7 +2485,7 @@
 		(dnp no)
 		(uuid "2d1521d2-bfed-4d0a-ab5d-187177ceec5b")
 		(property "Reference" "C7"
-			(at 40.64 83.82 0)
+			(at 41.91 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2494,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 40.64 86.36 0)
+			(at 41.91 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2503,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 49.2252 88.9 0)
+			(at 50.4952 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 48.26 85.09 0)
+			(at 49.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 85.09 0)
+			(at 49.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2547,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 58.42 127 0)
+		(at 58.42 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2508,7 +2556,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fd406d8-7a86-4859-b0db-2141b13257b9")
 		(property "Reference" "#PWR024"
-			(at 58.42 133.35 0)
+			(at 58.42 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2565,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 132.08 0)
+			(at 58.42 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2525,7 +2573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 127 0)
+			(at 58.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 127 0)
+			(at 58.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2543,7 +2591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 127 0)
+			(at 58.42 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,8 +2612,84 @@
 		)
 	)
 	(symbol
+		(lib_id "tacticleSwitch4_5x4_5mm:PTS647SN70SMTR2LFS")
+		(at 62.23 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5931b814-af1e-4297-844e-271ca581d36f")
+		(property "Reference" "SW1"
+			(at 82.55 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "SW_Push_Gauche_GO_IN"
+			(at 82.55 38.1 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "tacticleSwitch4_5x4_5mm:SWITCH_TR2LFS"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/c-k/PTS-647-SN70-SMTR2-LFS/9649854"
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f0b38d78-8298-4ae3-bc24-b0a4a41c2f8b")
+		)
+		(pin "2"
+			(uuid "29b2301e-74d5-440e-a810-7d9194e1c1e4")
+		)
+		(pin "1"
+			(uuid "ded350a0-66fc-4ed0-9427-c691523e5b33")
+		)
+		(pin "4"
+			(uuid "7148ba70-3222-41c3-b2d9-16f16d2bfb1f")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2765_Adafruit_Joystick:2765")
-		(at 152.4 175.26 0)
+		(at 251.46 55.88 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2574,7 +2698,7 @@
 		(fields_autoplaced yes)
 		(uuid "6759f54b-ef71-4e24-b63f-985879e5adde")
 		(property "Reference" "S2"
-			(at 152.4 168.91 0)
+			(at 251.46 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2582,7 +2706,7 @@
 			)
 		)
 		(property "Value" "2765"
-			(at 152.4 171.45 0)
+			(at 251.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2714,7 @@
 			)
 		)
 		(property "Footprint" "2765_Adafruit_Joystick:SW_2765"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2600,7 +2724,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2733,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +2742,7 @@
 			)
 		)
 		(property "MF" "Adafruit Industries"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2752,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "12.00 mm"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2762,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2772,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2782,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2765/Adafruit+Industries+LLC/view-part/?ref=eda"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2792,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +2802,7 @@
 			)
 		)
 		(property "PARTREV" "-"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +2812,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2765/Adafruit+Industries+LLC/view-part/?ref=snap"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2698,7 +2822,7 @@
 			)
 		)
 		(property "MP" "2765"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2832,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=587989&manufacturer=Adafruit Industries&part_name=2765&search_term=None"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2842,7 @@
 			)
 		)
 		(property "Description_1" "\nMini 2-Axis Analog Thumbstick\n"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2852,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2738,7 +2862,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit"
-			(at 152.4 175.26 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +2901,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 138.43 177.8 0)
+		(at 237.49 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2786,7 +2910,7 @@
 		(fields_autoplaced yes)
 		(uuid "67767b19-af66-41a9-8566-25d544cba9f1")
 		(property "Reference" "#PWR018"
-			(at 138.43 184.15 0)
+			(at 237.49 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2795,7 +2919,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 182.88 0)
+			(at 237.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 177.8 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2812,7 +2936,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 177.8 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2821,7 +2945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 177.8 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +3037,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 166.37 172.72 0)
+		(at 265.43 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2922,7 +3046,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c2958e4-97f3-49c7-885e-577ec3c19a43")
 		(property "Reference" "#PWR020"
-			(at 166.37 176.53 0)
+			(at 265.43 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +3055,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.37 167.64 0)
+			(at 265.43 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +3063,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 172.72 0)
+			(at 265.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +3072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 172.72 0)
+			(at 265.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,7 +3081,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 166.37 172.72 0)
+			(at 265.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,7 +3103,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 59.69 50.8 0)
+		(at 119.38 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2988,7 +3112,7 @@
 		(fields_autoplaced yes)
 		(uuid "961da8c9-10d1-42a2-86dc-d0a1fca3f6e5")
 		(property "Reference" "R1"
-			(at 62.23 49.5299 0)
+			(at 121.92 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +3121,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 62.23 52.0699 0)
+			(at 121.92 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3130,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 57.912 50.8 90)
+			(at 117.602 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3139,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
-			(at 59.69 50.8 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 50.8 0)
+			(at 119.38 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,87 +3172,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 53.34 80.01 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9824b5e8-61c2-45fd-993a-b5f7e2a341b1")
-		(property "Reference" "SW2"
-			(at 48.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push_Droite_GO_BACK"
-			(at 34.544 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
-			(at 53.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 53.34 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28a97005-b16c-4437-a4f1-817005d121df")
-		)
-		(pin "2"
-			(uuid "c670b103-e6f4-4a4c-a87a-00c5d29933db")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/67e74fc8-5c9f-4b99-af70-ff2f67e48256"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 60.96 85.09 0)
+		(at 119.38 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ac2d9832-72c5-4a95-9b83-287bafff2ae2")
 		(property "Reference" "R13"
-			(at 63.5 83.8199 0)
+			(at 121.92 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3137,7 +3190,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 63.5 86.3599 0)
+			(at 121.92 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3146,7 +3199,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 59.182 85.09 90)
+			(at 117.602 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3155,7 +3208,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
-			(at 60.96 85.09 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3164,7 +3217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 85.09 0)
+			(at 119.38 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3190,7 +3243,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 59.69 36.83 0)
+		(at 119.38 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3199,7 +3252,7 @@
 		(fields_autoplaced yes)
 		(uuid "dae69e8d-60c6-468b-9a6f-1ea0948cf53f")
 		(property "Reference" "#PWR02"
-			(at 59.69 40.64 0)
+			(at 119.38 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3261,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 59.69 31.75 0)
+			(at 119.38 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 36.83 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 36.83 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 36.83 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,7 +3310,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 166.37 148.59 0)
+		(at 265.43 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3265,7 +3318,7 @@
 		(dnp no)
 		(uuid "dc2f2ac1-6a90-41a8-82a9-0edd77a0cf7c")
 		(property "Reference" "#PWR021"
-			(at 166.37 152.4 0)
+			(at 265.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3274,7 +3327,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 166.37 142.24 0)
+			(at 265.43 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 148.59 0)
+			(at 265.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3291,7 +3344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 148.59 0)
+			(at 265.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3300,7 +3353,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 166.37 148.59 0)
+			(at 265.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3376,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 62.23 105.41 0)
+		(at 120.65 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3332,7 +3385,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea713570-f6f9-4d82-aa05-818b59442403")
 		(property "Reference" "#PWR025"
-			(at 62.23 109.22 0)
+			(at 120.65 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3394,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 62.23 100.33 0)
+			(at 120.65 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 105.41 0)
+			(at 120.65 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 105.41 0)
+			(at 120.65 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 62.23 105.41 0)
+			(at 120.65 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3389,7 +3442,7 @@
 	)
 	(symbol
 		(lib_id "2765_Adafruit_Joystick:2765")
-		(at 152.4 149.86 0)
+		(at 251.46 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3398,7 +3451,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdfaa0c7-dffb-4439-b471-d8753df86e30")
 		(property "Reference" "S2"
-			(at 152.4 143.51 0)
+			(at 251.46 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3406,7 +3459,7 @@
 			)
 		)
 		(property "Value" "2765"
-			(at 152.4 146.05 0)
+			(at 251.46 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3467,7 @@
 			)
 		)
 		(property "Footprint" "2765_Adafruit_Joystick:SW_2765"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3424,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3433,7 +3486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3442,7 +3495,7 @@
 			)
 		)
 		(property "MF" "Adafruit Industries"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3505,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "12.00 mm"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3515,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3525,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +3535,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/2765/Adafruit+Industries+LLC/view-part/?ref=eda"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3492,7 +3545,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3502,7 +3555,7 @@
 			)
 		)
 		(property "PARTREV" "-"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3565,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2765/Adafruit+Industries+LLC/view-part/?ref=snap"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3522,7 +3575,7 @@
 			)
 		)
 		(property "MP" "2765"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3585,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=587989&manufacturer=Adafruit Industries&part_name=2765&search_term=None"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3595,7 @@
 			)
 		)
 		(property "Description_1" "\nMini 2-Axis Analog Thumbstick\n"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3605,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +3615,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Adafruit"
-			(at 152.4 149.86 0)
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

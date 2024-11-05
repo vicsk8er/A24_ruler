@@ -1,4 +1,11 @@
-324852733728236
+333506643653061
+3_0x2_5mmButtonSMD
+434121025816
+<b>WS-TASV</B><BR>SMT Tact Switch 6.0x3.8 mm,2 pins
+
+0
+2
+2
 2765_Adafruit_Joystick
 SW_2765
 
@@ -27,6 +34,13 @@ JST_B2B-XH-A
 0
 2
 2
+B3U_1100P
+B3U-1100P_OMR
+
+B3U-1100P 
+0
+3
+3
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -99354,6 +99368,27 @@ XRCGB32M000F2P01R0
 OSC_XRCGB32M000F2P01R0
 
 
+0
+4
+4
+tacticleSwitch4_5x4_5mm
+SWITCH_TR2LFS
+
+PTS647SN70SMTR2LFS 
+0
+4
+4
+tacticleSwitch4_5x4_5mm
+SWITCH_TR2LFS-L
+
+PTS647SN70SMTR2LFS 
+0
+4
+4
+tacticleSwitch4_5x4_5mm
+SWITCH_TR2LFS-M
+
+PTS647SN70SMTR2LFS 
 0
 4
 4

@@ -1536,8 +1536,8 @@
 		(uuid "f77101af-6ad8-4e84-995a-174793890a4e")
 	)
 	(global_label "read_pin"
-		(shape input)
-		(at 36.83 29.21 0)
+		(shape output)
+		(at 36.83 29.21 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1547,7 +1547,7 @@
 		)
 		(uuid "84e19b70-98ab-42e0-ba01-f7470f11cba2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.8584 29.21 0)
+			(at 36.83 18.1816 90)
 			(effects
 				(font
 					(size 1.27 1.27)

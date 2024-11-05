@@ -3321,10 +3321,16 @@
 		)
 	)
 	(junction
-		(at 27.94 57.15)
+		(at 88.9 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0bfca67a-61e3-4702-8c49-9f10b5f47219")
+		(uuid "0ed11f95-9758-4857-b8e8-5d52f7d171ce")
+	)
+	(junction
+		(at 125.73 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f8ae06d-66cf-4658-9bd5-6d47105c74db")
 	)
 	(junction
 		(at 219.71 86.36)
@@ -3355,6 +3361,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2224207e-dbe9-439b-bc9a-cae7393e9a44")
+	)
+	(junction
+		(at 39.37 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "318c0fb5-36bc-4ef1-9b31-3237ea63929d")
 	)
 	(junction
 		(at 226.06 33.02)
@@ -3403,12 +3415,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "599a0599-7ce5-4871-9349-5258c5388167")
-	)
-	(junction
-		(at 125.73 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7013223b-e194-4637-b5c2-ccb842f64d17")
 	)
 	(junction
 		(at 88.9 146.05)
@@ -3505,12 +3511,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da30e291-b077-4b66-886b-56f697e38a84")
-	)
-	(junction
-		(at 115.57 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df11e24e-ee8d-4b67-a480-04a88860899f")
 	)
 	(junction
 		(at 125.73 52.07)
@@ -3664,7 +3664,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 87.63) (xy 125.73 87.63)
+			(xy 142.24 92.71) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3944,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 71.12) (xy 142.24 87.63)
+			(xy 142.24 71.12) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3984,17 +3984,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 87.63) (xy 115.57 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e80e26e-adb8-4f5f-aa2e-7f61b551c8e6")
-	)
-	(wire
-		(pts
-			(xy 27.94 57.15) (xy 44.45 57.15)
+			(xy 24.13 57.15) (xy 39.37 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4251,6 +4241,16 @@
 			(type default)
 		)
 		(uuid "8a841f68-6f4f-41f7-ae0b-0bd43ab5ff74")
+	)
+	(wire
+		(pts
+			(xy 88.9 92.71) (xy 125.73 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b1c9aaa-24d9-4017-a7af-d118943c44a4")
 	)
 	(wire
 		(pts
@@ -4564,16 +4564,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 57.15) (xy 27.94 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caf43874-0813-43e9-9747-8c07dfb2adf3")
-	)
-	(wire
-		(pts
 			(xy 77.47 146.05) (xy 88.9 146.05)
 		)
 		(stroke
@@ -4704,16 +4694,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 52.07) (xy 27.94 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd66d48c-ee5e-4991-a8ed-4e78839bcce9")
-	)
-	(wire
-		(pts
 			(xy 71.12 92.71) (xy 88.9 92.71)
 		)
 		(stroke
@@ -4764,7 +4744,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 72.39) (xy 125.73 87.63)
+			(xy 125.73 72.39) (xy 125.73 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4841,6 +4821,16 @@
 			(type default)
 		)
 		(uuid "fb90f039-c6d9-4c65-b11b-bb69bbdfb746")
+	)
+	(wire
+		(pts
+			(xy 39.37 57.15) (xy 44.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd28cb8-3cda-4fee-a905-8404d83dfd4c")
 	)
 	(rectangle
 		(start 198.12 74.93)
@@ -5103,28 +5093,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vbat"
-		(shape input)
-		(at 27.94 52.07 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "720dda1d-f025-4ea2-b718-9b90762f4b17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 46.3922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6894,7 +6862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/onsemi/NTK3043NT1G/1484893"
 			(at 222.25 93.98 0)
 			(effects
 				(font
@@ -7021,6 +6989,72 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 39.37 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e0a5f7-6d1b-44a5-baf8-f491c05cfbe3")
+		(property "Reference" "#FLG01"
+			(at 39.37 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1927d04-a81a-4477-9f38-bef7f5a3c5f4")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/47f0fc71-ff78-496f-bb04-036a9aeaa71c/6f59428e-8e72-4854-8d86-784df1ffb46d"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
