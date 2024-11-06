@@ -4603,6 +4603,50 @@
 			)
 		)
 	)
+	(global_label "PB11_Bouton_IN"
+		(shape input)
+		(at 82.55 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "66f7df26-4713-4c87-94b6-b186489d8e39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 67.8251 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PB10_Bouton_BACK"
+		(shape input)
+		(at 82.55 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "676c6805-e1b7-42ad-8a35-bd9f925b540b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.4544 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART1_TX"
 		(shape output)
 		(at 113.03 121.92 0)
@@ -4980,28 +5024,6 @@
 			)
 		)
 	)
-	(global_label "PB11_Bouton_IN"
-		(shape input)
-		(at 82.55 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "aa04f7de-d30e-4624-b4ff-a20dabffb718")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.8251 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PB2_Bouton_LOG"
 		(shape input)
 		(at 82.55 104.14 180)
@@ -5192,28 +5214,6 @@
 		(uuid "deeb453c-97b0-47a9-9bdd-732037c51f57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 139.5195 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PB10_Bouton_BACK"
-		(shape input)
-		(at 82.55 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ec7faa77-1ebb-4e85-bf71-fa8951674740")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.4544 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
