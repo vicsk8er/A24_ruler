@@ -1300,12 +1300,6 @@
 		)
 	)
 	(junction
-		(at 26.67 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "290c3b73-1eb8-445c-a0ad-ce8185a832b0")
-	)
-	(junction
 		(at 41.91 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1497,16 +1491,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 111.76) (xy 30.48 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae7ea0b5-46de-452c-b833-665feb4ee0be")
-	)
-	(wire
-		(pts
 			(xy 67.31 121.92) (xy 67.31 125.73)
 		)
 		(stroke
@@ -1585,7 +1569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 68.8848 82.55 0)
 			(effects
 				(font
@@ -1779,7 +1763,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 30.48 113.538 90)
 			(effects
 				(font
@@ -2508,7 +2492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 35.052 118.11 90)
 			(effects
 				(font
