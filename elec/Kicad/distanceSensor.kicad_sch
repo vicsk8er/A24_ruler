@@ -5,7 +5,7 @@
 	(uuid "207021c1-a9f0-4dbe-b9b5-c0ccb8fe748c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x05"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,8 +19,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x05"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +72,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x05_1_1"
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -130,7 +141,7 @@
 				)
 				(rectangle
 					(start -1.27 6.35)
-					(end 1.27 -6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -222,6 +233,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -472,187 +501,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1774,19 +1622,19 @@
 		)
 	)
 	(junction
-		(at 73.66 81.28)
+		(at 52.07 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0230fd1e-eda8-4bc5-81c9-ef38d473d4a1")
 	)
 	(junction
-		(at 46.99 55.88)
+		(at 78.74 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a6af244-0d72-4925-b2cc-485d552b8a73")
 	)
 	(junction
-		(at 64.77 55.88)
+		(at 60.96 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26af4163-cf17-405d-849c-f3842b9cd1af")
@@ -1798,7 +1646,7 @@
 		(uuid "31a2581b-407c-4fe8-b4f1-46861f00e9db")
 	)
 	(junction
-		(at 46.99 67.31)
+		(at 78.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e23e8e0-7862-4116-ba16-cda183f4c522")
@@ -1816,7 +1664,7 @@
 		(uuid "5851145c-7b9c-49f3-9500-f4e4edca12ae")
 	)
 	(junction
-		(at 54.61 81.28)
+		(at 71.12 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f192af5-4b8a-4c48-9e2a-41f7d12c7e45")
@@ -1846,7 +1694,7 @@
 		(uuid "adc591e5-d469-454b-a540-e4da7f43110c")
 	)
 	(junction
-		(at 54.61 55.88)
+		(at 71.12 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c869404a-cbbf-4404-9462-1637cefecbb9")
@@ -1868,6 +1716,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6c130c0-236e-4cff-9ea8-93641dcd4b0a")
+	)
+	(junction
+		(at 44.45 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2fc7687-887d-4821-86f0-1e37cdf9a528")
+	)
+	(junction
+		(at 29.21 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6171814-8a50-4d58-9f68-ea997f02cdb4")
 	)
 	(junction
 		(at 105.41 96.52)
@@ -1897,7 +1757,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 55.88) (xy 64.77 55.88)
+			(xy 71.12 55.88) (xy 60.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1917,7 +1777,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 59.69 67.31)
+			(xy 78.74 67.31) (xy 66.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +1827,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 63.5) (xy 54.61 81.28)
+			(xy 44.45 67.31) (xy 43.18 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b718fc6-4975-4b3b-9bd4-e508c697a4b3")
+	)
+	(wire
+		(pts
+			(xy 71.12 63.5) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +1857,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 67.31) (xy 46.99 67.31)
+			(xy 82.55 67.31) (xy 78.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +1897,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 87.63 81.28)
+			(xy 41.91 81.28) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 55.88) (xy 54.61 55.88)
+			(xy 78.74 55.88) (xy 71.12 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +1947,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 55.88) (xy 78.74 55.88)
+			(xy 60.96 55.88) (xy 46.99 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2104,6 +1974,16 @@
 			(type default)
 		)
 		(uuid "88ec2d4c-81e8-4aa3-9892-a3324711bacd")
+	)
+	(wire
+		(pts
+			(xy 29.21 81.28) (xy 25.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90dae6f5-2e4c-43d2-a322-bf799c82d22e")
 	)
 	(wire
 		(pts
@@ -2147,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 67.31) (xy 82.55 67.31)
+			(xy 55.88 67.31) (xy 44.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2157,13 +2037,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 81.28) (xy 54.61 81.28)
+			(xy 87.63 81.28) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aa41a2f4-92e6-43bb-b089-081f460d8b2e")
+	)
+	(wire
+		(pts
+			(xy 44.45 64.77) (xy 44.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2db66e-7754-4180-9b15-9279e2e618ba")
 	)
 	(wire
 		(pts
@@ -2177,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 53.34) (xy 46.99 55.88)
+			(xy 78.74 53.34) (xy 78.74 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 55.88) (xy 64.77 59.69)
+			(xy 60.96 55.88) (xy 60.96 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2237,13 +2127,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 81.28) (xy 74.93 81.28)
+			(xy 52.07 81.28) (xy 50.8 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d1b8a52a-d939-4860-a972-398cd50c59ff")
+	)
+	(wire
+		(pts
+			(xy 29.21 72.39) (xy 29.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f36048-4f73-4ce7-8675-387e79fec55a")
 	)
 	(wire
 		(pts
@@ -2317,7 +2217,27 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 67.31) (xy 46.99 63.5)
+			(xy 44.45 54.61) (xy 44.45 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3fedd7e-66b2-4600-9f35-0626805a9bc1")
+	)
+	(wire
+		(pts
+			(xy 29.21 54.61) (xy 29.21 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0b7161-74f1-41d8-ba48-a8544d41e664")
+	)
+	(wire
+		(pts
+			(xy 78.74 67.31) (xy 78.74 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2247,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 81.28) (xy 73.66 81.28)
+			(xy 71.12 81.28) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 55.88) (xy 78.74 73.66)
+			(xy 46.99 55.88) (xy 46.99 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2376,7 +2296,7 @@
 		(uuid "fff89cd7-a703-4d8d-9c41-8cbb1ece73bf")
 	)
 	(rectangle
-		(start 25.4 39.37)
+		(start 16.51 39.37)
 		(end 99.06 90.17)
 		(stroke
 			(width 0)
@@ -2474,29 +2394,7 @@
 	)
 	(global_label "I2C1_SCL"
 		(shape input)
-		(at 87.63 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "1917020d-1dd1-42ce-9f2a-d14bbe9e267e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0331 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C1_SCL"
-		(shape input)
-		(at 90.17 149.86 180)
+		(at 25.4 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2504,9 +2402,9 @@
 			)
 			(justify right)
 		)
-		(uuid "24019274-eabe-4105-927c-934cf048cf2a")
+		(uuid "1917020d-1dd1-42ce-9f2a-d14bbe9e267e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7669 149.86 0)
+			(at 15.9969 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,22 +2438,22 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 82.55 67.31 0)
+		(at 43.18 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2b22fe65-c4e1-4dba-91fc-568e4117ef1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.0015 67.31 0)
+			(at 33.7285 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2584,51 +2482,29 @@
 	)
 	(global_label "SCL_2V8"
 		(shape output)
-		(at 38.1 81.28 180)
+		(at 87.63 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3f065d22-7056-4c10-bec3-3faa053cb5ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.3258 81.28 0)
+			(at 96.4042 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(global_label "SDA_2V8"
-		(shape output)
-		(at 43.18 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "af05af07-3f26-48d6-bcda-3aa1ae678832")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.3574 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XSHUT"
+	(global_label "I2C1_SCL"
 		(shape input)
-		(at 90.17 154.94 180)
+		(at 121.92 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2636,9 +2512,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b8df72f6-9300-470e-8fce-4085054de39a")
+		(uuid "3fb5b539-3f84-4009-946e-dc799841f533")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.944 154.94 0)
+			(at 112.5169 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2526,7 @@
 	)
 	(global_label "I2C1_SDA"
 		(shape input)
-		(at 90.17 152.4 180)
+		(at 91.44 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2658,9 +2534,119 @@
 			)
 			(justify right)
 		)
-		(uuid "fc86772a-89f8-48a1-9a3b-42e8c3e35df2")
+		(uuid "57c86087-c782-45f9-ac18-2ecaab9427c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7185 152.4 0)
+			(at 81.9885 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 121.92 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "64e18c8c-b4e8-4065-91b0-5e0c0b7287a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.4685 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XSHUT"
+		(shape input)
+		(at 121.92 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "744725dd-4de6-48bd-acc7-60db8023456c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.694 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_2V8"
+		(shape output)
+		(at 82.55 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "af05af07-3f26-48d6-bcda-3aa1ae678832")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 91.3726 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 91.44 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c3c12cf1-b99c-4ddf-97dd-08e2fa6f9c93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.0369 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XSHUT"
+		(shape input)
+		(at 91.44 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "da46af0b-201e-4a4e-84f5-9ec58f1707c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.214 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,152 +2717,6 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
-		(at 95.25 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d8e33df-eb37-4eaf-90ea-b7f5713fc374")
-		(property "Reference" "J4"
-			(at 97.79 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x05"
-			(at 97.79 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 95.25 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5db0c792-5bdc-4ec2-913f-dc1780c02a7c")
-		)
-		(pin "3"
-			(uuid "82f672b0-0158-4485-b837-8f3750e13d0e")
-		)
-		(pin "2"
-			(uuid "e74b34e0-1191-43b7-b4d8-06d338f8b398")
-		)
-		(pin "1"
-			(uuid "ed862a48-1287-4dbb-86d9-dc9cc73cae70")
-		)
-		(pin "5"
-			(uuid "5ebf74f1-dbb0-48c7-9622-cc33b223a0a5")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 90.17 157.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "108bb7da-0d16-43ea-98c2-1343e5aa64d4")
-		(property "Reference" "#PWR037"
-			(at 83.82 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 86.36 157.4799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d74145d9-659d-4630-8d4a-dc501db9cc34")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2982,6 +2822,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V8")
+		(at 91.44 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cad18bd-e8d0-4d90-85eb-d112fd19fefa")
+		(property "Reference" "#PWR068"
+			(at 95.25 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V8"
+			(at 87.63 170.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
+			(at 91.44 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5be1073e-14c4-4d10-8f6c-68d35037ff40")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "447be3bd-6aff-4662-ae0e-c1161ef0ea84")
+		(property "Reference" "#PWR044"
+			(at 115.57 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b11bbfa0-87cb-4326-93b0-0506e4625c7a")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 193.04 87.63 0)
 		(unit 1)
@@ -3051,8 +3025,76 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 121.92 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba9fb3c-a079-460d-a461-fe3449be8ee2")
+		(property "Reference" "#PWR040"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 118.11 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5ae1027-9fd5-4a32-b7e8-9f0f090f109b")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 64.77 64.77 270)
+		(at 60.96 64.77 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3061,7 +3103,7 @@
 		(fields_autoplaced yes)
 		(uuid "54e655e1-ceb0-4441-8782-693182976b95")
 		(property "Reference" "Q2"
-			(at 64.77 71.12 90)
+			(at 60.96 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3111,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 64.77 73.66 90)
+			(at 60.96 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3088,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 60.96 69.85 0)
+			(at 64.77 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,7 +3140,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 64.77 64.77 0)
+			(at 60.96 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,8 +3168,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 59.69 0)
-		(mirror y)
+		(at 71.12 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3135,7 +3176,7 @@
 		(dnp no)
 		(uuid "56bfcc6e-b89c-4906-8f57-6765b7f808c9")
 		(property "Reference" "R16"
-			(at 53.34 58.42 0)
+			(at 72.39 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3185,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 53.34 60.706 0)
+			(at 72.39 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,7 +3194,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 56.388 59.69 90)
+			(at 69.342 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,7 +3203,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
-			(at 54.61 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 59.69 0)
+			(at 71.12 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,6 +3230,138 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 44.45 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5812b550-24e5-4ca0-bcc1-2458402a96b2")
+		(property "Reference" "#PWR039"
+			(at 44.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 44.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 44.45 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07df7e9f-6572-4195-9e8f-d55f9aa409b2")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 29.21 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ed7d3c-11eb-46ae-ad49-5cb838a8cf78")
+		(property "Reference" "#PWR037"
+			(at 29.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 29.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 29.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faac562f-4889-4f05-8bd4-b5ccdf6229c6")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -3339,7 +3512,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 78.74 78.74 270)
+		(at 46.99 78.74 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3348,7 +3522,7 @@
 		(fields_autoplaced yes)
 		(uuid "781ed8b6-c392-4816-90e3-aca7dd5f99d0")
 		(property "Reference" "Q3"
-			(at 78.74 85.09 90)
+			(at 46.99 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,7 +3530,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 78.74 87.63 90)
+			(at 46.99 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3364,7 +3538,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 76.835 83.82 0)
+			(at 48.895 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3549,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 74.93 83.82 0)
+			(at 50.8 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3559,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 78.74 78.74 0)
+			(at 46.99 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +3587,8 @@
 	)
 	(symbol
 		(lib_id "power:+2V8")
-		(at 46.99 53.34 0)
+		(at 78.74 53.34 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3422,7 +3597,7 @@
 		(fields_autoplaced yes)
 		(uuid "869a99ec-55c9-4720-8c1f-84cd021574d5")
 		(property "Reference" "#PWR033"
-			(at 46.99 57.15 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +3606,7 @@
 			)
 		)
 		(property "Value" "+2V8"
-			(at 46.99 48.26 0)
+			(at 78.74 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3614,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 53.34 0)
+			(at 78.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3448,7 +3623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 53.34 0)
+			(at 78.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3457,7 +3632,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V8\""
-			(at 46.99 53.34 0)
+			(at 78.74 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,8 +3654,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 46.99 59.69 0)
-		(mirror y)
+		(at 78.74 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3489,7 +3663,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f5d8d8b-ad2b-4ba6-b962-ac166f8529f8")
 		(property "Reference" "R15"
-			(at 44.45 58.4199 0)
+			(at 81.28 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3672,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 44.45 60.9599 0)
+			(at 81.28 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3681,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 48.768 59.69 90)
+			(at 76.962 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
-			(at 46.99 59.69 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3699,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 59.69 0)
+			(at 78.74 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3549,17 +3723,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 90.17 147.32 90)
+		(lib_id "power:GND")
+		(at 91.44 180.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aaca195c-fbd2-484e-b6ac-72d1a8f2af96")
-		(property "Reference" "#PWR036"
-			(at 93.98 147.32 0)
+		(uuid "94935c25-6799-4adb-86c4-e24ba48b6a71")
+		(property "Reference" "#PWR066"
+			(at 85.09 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3567,17 +3741,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 86.36 147.3199 90)
+		(property "Value" "GND"
+			(at 87.63 180.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 147.32 0)
+			(at 91.44 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 147.32 0)
+			(at 91.44 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3594,8 +3768,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 90.17 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,12 +3778,233 @@
 			)
 		)
 		(pin "1"
-			(uuid "faf4b0e9-3a1c-491d-8e51-7cbd1651a416")
+			(uuid "3c80d4e7-8b8e-449c-a789-32b8e246889d")
 		)
 		(instances
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
-					(reference "#PWR036")
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 105.41 81.28 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d8d1dc5-2b9d-4ab9-8f0c-99d9b6bac2a1")
+		(property "Reference" "R32"
+			(at 103.124 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Bypass_XSHUT (0 ohm)"
+			(at 107.442 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 103.632 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "999174d3-d69c-411b-96c1-010bbc7673fb")
+		)
+		(pin "2"
+			(uuid "88436c4b-0e29-4bf4-aabc-87d75bb5a431")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a38c5439-f38c-4def-b597-5217e5801d0f")
+		(property "Reference" "R20"
+			(at 45.72 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 45.72 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 42.672 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c28c23f-c1c2-4151-998f-2c57b4e099c6")
+		)
+		(pin "2"
+			(uuid "7966de25-1b2d-406a-a5c7-a38d1deeed0d")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 96.52 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab4ac924-d39a-49bb-bf5f-07d401923d99")
+		(property "Reference" "J10"
+			(at 99.06 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 99.06 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 96.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 96.52 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bbadb509-c749-4ec0-9a74-1a57da580526")
+		)
+		(pin "4"
+			(uuid "e340946d-3ef6-4072-acee-f5687e6c9378")
+		)
+		(pin "6"
+			(uuid "f968cdcd-8dfa-4913-8bdd-143990c61841")
+		)
+		(pin "5"
+			(uuid "5ed87649-0798-454f-adb5-fc16dcdb16c3")
+		)
+		(pin "2"
+			(uuid "b7aead3e-15b0-415d-8ee2-e4198c03ca98")
+		)
+		(pin "1"
+			(uuid "046340a6-3638-4155-bef6-c037c799c758")
+		)
+		(instances
+			(project ""
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3752,6 +4147,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 29.21 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1ecc702-f834-4269-84d8-a70e09f1ec33")
+		(property "Reference" "R19"
+			(at 30.48 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 30.48 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 27.432 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW04021M00FKED/1178349"
+			(at 29.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35bb3088-4151-4452-9550-1873ff3c2c94")
+		)
+		(pin "2"
+			(uuid "153e2892-6e09-4783-a2a5-c6f7d5b5ddea")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 87.63 0)
 		(unit 1)
@@ -3887,34 +4351,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 105.41 81.28 90)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 127 171.45 0)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "da7200ab-80c8-4541-985d-1607c1152446")
-		(property "Reference" "JP1"
-			(at 101.092 79.248 0)
+		(fields_autoplaced yes)
+		(uuid "db326128-c929-4938-8714-398a75c6cd7c")
+		(property "Reference" "J4"
+			(at 129.54 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 102.616 72.644 0)
+		(property "Value" "Conn_01x06"
+			(at 129.54 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 105.41 81.28 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +4388,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 81.28 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3931,8 +4396,90 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 105.41 81.28 0)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "393b433f-db4b-4bc2-a386-0f5a31c2e3ba")
+		)
+		(pin "4"
+			(uuid "479e95b0-a7a5-4847-a1c7-489b5b19dd0f")
+		)
+		(pin "6"
+			(uuid "5045700f-ff7f-426f-9977-c76f5952b4ce")
+		)
+		(pin "5"
+			(uuid "1e18c010-873b-435e-93fc-99d95bc09b7c")
+		)
+		(pin "2"
+			(uuid "0d3cd11b-80cf-444e-8339-ef8273d59ffc")
+		)
+		(pin "1"
+			(uuid "73df184e-3771-40a3-8fcb-faea8c6f89dc")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 91.44 167.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc8a7d1d-4d99-400e-9107-e5b7df161c21")
+		(property "Reference" "#PWR055"
+			(at 95.25 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 87.63 167.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 91.44 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,15 +4488,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f45d448-c5d8-4ca0-9b32-33cd90f48c89")
-		)
-		(pin "2"
-			(uuid "bce77d90-f6ab-451c-8805-e052bb62bdc7")
+			(uuid "704ff40d-c21c-4b9e-8b16-0a4d9da2fe93")
 		)
 		(instances
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
-					(reference "JP1")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -4020,6 +4564,73 @@
 			(project "rulerSchematic"
 				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 121.92 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e58b6f31-0f8f-4eea-bf90-996d72fe3b67")
+		(property "Reference" "#PWR041"
+			(at 125.73 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2V8"
+			(at 118.11 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+2V8\""
+			(at 121.92 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "70d47d4e-c9f5-471d-87d4-20f8c6c66d49")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/5f7b9d88-eb12-47e8-8ae8-265c4903ec29"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

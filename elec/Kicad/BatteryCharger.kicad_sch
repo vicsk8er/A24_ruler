@@ -1819,7 +1819,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B2B-XH-A"
+		(property "Value" "S2B-XH-A"
 			(at 149.86 64.7701 0)
 			(effects
 				(font
