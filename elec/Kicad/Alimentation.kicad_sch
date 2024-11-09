@@ -8021,7 +8021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LQP03TN27NJ02D:INDC0603X33N"
+		(property "Footprint" "LQG15HN27NJ02D:INDC1005X55N"
 			(at 80.01 162.56 0)
 			(effects
 				(font
@@ -8031,7 +8031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/LQP03TN27NJ02D/2357643"
+		(property "Datasheet" "https://www.digikey.ca/en/products/detail/murata-electronics/LQG15HN27NJ02D/584299?"
 			(at 80.01 162.56 0)
 			(effects
 				(font
