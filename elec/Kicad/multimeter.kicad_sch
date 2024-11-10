@@ -1300,38 +1300,38 @@
 		)
 	)
 	(junction
-		(at 41.91 125.73)
+		(at 71.12 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "477e48f2-ac18-4b22-ae69-de6b4ecf4a1a")
 	)
 	(junction
-		(at 69.85 105.41)
+		(at 43.18 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9927db0f-e9bc-40b6-8d5e-ae7389ce6e80")
 	)
 	(junction
-		(at 36.83 111.76)
+		(at 76.2 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cc87649-9502-4962-972f-671a025c863c")
 	)
 	(junction
-		(at 36.83 105.41)
+		(at 76.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c340b1c4-c614-4eb4-a558-5a385046826d")
 	)
 	(junction
-		(at 62.23 125.73)
+		(at 50.8 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca765781-ff42-4a68-b9a5-62b7a3e6b41e")
 	)
 	(wire
 		(pts
-			(xy 34.29 111.76) (xy 36.83 111.76)
+			(xy 78.74 44.45) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1341,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 125.73) (xy 41.91 128.27)
+			(xy 71.12 30.48) (xy 71.12 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1351,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 69.85 74.93)
+			(xy 43.18 96.52) (xy 43.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1361,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 105.41) (xy 69.85 121.92)
+			(xy 43.18 50.8) (xy 43.18 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1371,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 36.83 114.3)
+			(xy 76.2 44.45) (xy 76.2 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1381,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 105.41) (xy 46.99 105.41)
+			(xy 76.2 50.8) (xy 66.04 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1391,7 +1391,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 29.21) (xy 69.85 41.91)
+			(xy 43.18 127) (xy 43.18 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1401,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 121.92) (xy 67.31 121.92)
+			(xy 43.18 34.29) (xy 45.72 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1411,7 +1411,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 125.73) (xy 62.23 128.27)
+			(xy 50.8 30.48) (xy 50.8 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1421,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 105.41) (xy 36.83 111.76)
+			(xy 76.2 50.8) (xy 76.2 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1431,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 105.41) (xy 69.85 105.41)
+			(xy 55.88 50.8) (xy 43.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1441,7 +1441,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 111.76) (xy 25.4 111.76)
+			(xy 86.36 44.45) (xy 87.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1451,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 125.73) (xy 67.31 125.73)
+			(xy 50.8 30.48) (xy 45.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 121.92) (xy 36.83 125.73)
+			(xy 76.2 34.29) (xy 76.2 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1471,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 59.69) (xy 36.83 105.41)
+			(xy 76.2 96.52) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 69.85 95.25)
+			(xy 43.18 73.66) (xy 43.18 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1491,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 121.92) (xy 67.31 125.73)
+			(xy 45.72 34.29) (xy 45.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 125.73) (xy 41.91 125.73)
+			(xy 76.2 30.48) (xy 71.12 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 29.21) (xy 36.83 41.91)
+			(xy 76.2 127) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1521,30 +1521,30 @@
 	)
 	(global_label "read_pin"
 		(shape output)
-		(at 36.83 29.21 90)
+		(at 76.2 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "84e19b70-98ab-42e0-ba01-f7470f11cba2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.83 18.1816 90)
+			(at 76.2 138.0284 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 69.85 78.74 0)
-		(mirror y)
+		(at 43.18 77.47 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1552,7 +1552,7 @@
 		(dnp no)
 		(uuid "042a4ebf-d3ef-450b-bdaf-cc805bb09e5f")
 		(property "Reference" "C5"
-			(at 77.47 77.47 0)
+			(at 35.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1561,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.47 80.01 0)
+			(at 35.56 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 68.8848 82.55 0)
+			(at 44.1452 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1579,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/CC0603KRX7R7BB104/302822"
-			(at 69.85 78.74 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,7 +1588,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 78.74 0)
+			(at 43.18 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 	)
 	(symbol
 		(lib_id "HX0201800000G:HX0201800000G")
-		(at 41.91 125.73 0)
+		(at 71.12 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1621,7 +1621,7 @@
 		(dnp no)
 		(uuid "1db3ec15-3ccd-4768-8376-95bf2ccfd05e")
 		(property "Reference" "J3"
-			(at 51.562 118.872 0)
+			(at 61.468 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,7 +1629,7 @@
 			)
 		)
 		(property "Value" "HX0201800000G"
-			(at 52.07 120.65 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 			)
 		)
 		(property "Footprint" "HX0201800000G:HX0201800000G"
-			(at 58.42 123.19 0)
+			(at 54.61 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1647,7 +1647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 125.73 0)
+			(at 54.61 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1657,7 +1657,7 @@
 			)
 		)
 		(property "Description" "Fixed Terminal Blocks TB SPRING CLAMP 180D"
-			(at 58.42 128.27 0)
+			(at 54.61 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1667,7 +1667,7 @@
 			)
 		)
 		(property "Height" "12.8"
-			(at 58.42 130.81 0)
+			(at 54.61 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1677,7 +1677,7 @@
 			)
 		)
 		(property "Mouser Part Number" "649-HX02018000J0G"
-			(at 58.42 133.35 0)
+			(at 54.61 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1687,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/HX0201800000G?qs=Mv7BduZupUjWRzKlnc0xpw%3D%3D"
-			(at 58.42 135.89 0)
+			(at 54.61 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +1697,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Amphenol"
-			(at 58.42 138.43 0)
+			(at 54.61 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "HX0201800000G"
-			(at 58.42 140.97 0)
+			(at 54.61 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,7 +1739,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 111.76 90)
+		(at 82.55 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1748,7 +1748,7 @@
 		(fields_autoplaced yes)
 		(uuid "223b851d-41e3-45f3-908d-e7254342f696")
 		(property "Reference" "R22"
-			(at 30.48 105.41 90)
+			(at 82.55 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1756,7 @@
 			)
 		)
 		(property "Value" "833"
-			(at 30.48 107.95 90)
+			(at 82.55 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1764,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 30.48 113.538 90)
+			(at 82.55 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 111.76 0)
+			(at 82.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1782,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 111.76 0)
+			(at 82.55 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,75 +1806,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 25.4 111.76 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26c6d08a-10ce-45fe-8002-5d9c01a43713")
-		(property "Reference" "#PWR035"
-			(at 19.05 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 21.59 111.7599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b0c4484-236d-4a4c-827f-47c0ff8e4908")
-		)
-		(instances
-			(project "rulerSchematic"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PESD5V5C1ULYL:PESD5V5C1ULYL")
-		(at 52.07 105.41 0)
+		(at 60.96 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1883,7 +1816,7 @@
 		(fields_autoplaced yes)
 		(uuid "2820f9b7-368b-4695-82ad-8a2c6a03ea9a")
 		(property "Reference" "D6"
-			(at 52.07 99.06 0)
+			(at 60.96 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +1824,7 @@
 			)
 		)
 		(property "Value" "PESD5V5C1ULYL"
-			(at 52.07 101.6 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,7 +1832,7 @@
 			)
 		)
 		(property "Footprint" "PESD5V5C1ULYL:DIO_PESD5V5C1ULYL"
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1909,7 +1842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1860,7 @@
 			)
 		)
 		(property "PARTREV" "6 April 2023"
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1870,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1880,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1890,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Nexperia"
-			(at 52.07 105.41 0)
+			(at 60.96 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1916,7 @@
 	)
 	(symbol
 		(lib_id "DSS16UTR:DSS16UTR")
-		(at 69.85 100.33 90)
+		(at 43.18 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1992,7 +1925,7 @@
 		(fields_autoplaced yes)
 		(uuid "3595bfca-42f0-4c2b-8074-c2472c778834")
 		(property "Reference" "D4"
-			(at 72.39 99.0599 90)
+			(at 40.64 57.1501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +1934,7 @@
 			)
 		)
 		(property "Value" "DSS16UTR"
-			(at 72.39 101.5999 90)
+			(at 40.64 54.6101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2010,7 +1943,7 @@
 			)
 		)
 		(property "Footprint" "DSS16UTR:SODFL3618X110N"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +1953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,7 +1962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +1971,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" ""
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +1981,7 @@
 			)
 		)
 		(property "MF" "SMC Diode Solutions"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +1991,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Diode Schottky 60 V 1A Surface Mount SOD-123FL\n                        \n"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2001,7 @@
 			)
 		)
 		(property "Package" "SOD-123F SMC Diode Solutions"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2011,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2088,7 +2021,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DSS16UTR/SMC+Diode+Solutions/view-part/?ref=eda"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,7 +2031,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DSS16UTR/SMC+Diode+Solutions/view-part/?ref=snap"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2041,7 @@
 			)
 		)
 		(property "MP" "DSS16UTR"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2118,7 +2051,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2128,7 +2061,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/DSS16UTR/?ref=eda"
-			(at 69.85 100.33 0)
+			(at 43.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,8 +2086,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40381e3a-4657-4aac-a5ce-a0f8561a392d")
+		(property "Reference" "#PWR035"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6ac8ad9-2fde-4328-9e02-11b8ff59bb7f")
+		)
+		(instances
+			(project "rulerSchematic"
+				(path "/a1545928-1195-40b9-b3c4-78f837012afb/9ce0a5f7-3a13-4b8e-8def-0070d0424087"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "F0603G0R03FNTR:F0603G0R03FNTR")
-		(at 69.85 59.69 90)
+		(at 43.18 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2163,7 +2162,7 @@
 		(fields_autoplaced yes)
 		(uuid "615a454d-7d74-495c-b31f-94b2ede2e52a")
 		(property "Reference" "F2"
-			(at 72.39 49.5299 90)
+			(at 40.64 106.6801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2171,7 @@
 			)
 		)
 		(property "Value" "F0603G0R03FNTR"
-			(at 72.39 52.0699 90)
+			(at 40.64 104.1401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,7 +2180,7 @@
 			)
 		)
 		(property "Footprint" "F0603G0R03FNTR:F0603G0R03FNTR"
-			(at 68.58 45.72 0)
+			(at 44.45 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2190,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
-			(at 71.12 45.72 0)
+			(at 41.91 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2200,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
-			(at 73.66 45.72 0)
+			(at 39.37 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2210,7 @@
 			)
 		)
 		(property "Height" "0.71"
-			(at 76.2 45.72 0)
+			(at 36.83 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2220,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-F0603G0R03FNTR"
-			(at 78.74 45.72 0)
+			(at 34.29 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2231,7 +2230,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
-			(at 81.28 45.72 0)
+			(at 31.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2241,7 +2240,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 83.82 45.72 0)
+			(at 29.21 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2250,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
-			(at 86.36 45.72 0)
+			(at 26.67 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2276,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 29.21 180)
+		(at 43.18 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2286,7 +2285,7 @@
 		(fields_autoplaced yes)
 		(uuid "891713e4-f516-4d25-a744-f5894262cef1")
 		(property "Reference" "#PWR034"
-			(at 69.85 22.86 0)
+			(at 43.18 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2294,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 24.13 0)
+			(at 43.18 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2302,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 29.21 0)
+			(at 43.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2312,7 +2311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 29.21 0)
+			(at 43.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2320,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 29.21 0)
+			(at 43.18 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2342,7 @@
 	)
 	(symbol
 		(lib_id "F0603G0R03FNTR:F0603G0R03FNTR")
-		(at 36.83 59.69 90)
+		(at 76.2 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2352,7 +2351,7 @@
 		(fields_autoplaced yes)
 		(uuid "e223b44c-bae0-406c-9811-9e21e8198851")
 		(property "Reference" "F1"
-			(at 39.37 49.5299 90)
+			(at 73.66 106.6801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2360,7 @@
 			)
 		)
 		(property "Value" "F0603G0R03FNTR"
-			(at 39.37 52.0699 90)
+			(at 73.66 104.1401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2369,7 @@
 			)
 		)
 		(property "Footprint" "F0603G0R03FNTR:F0603G0R03FNTR"
-			(at 35.56 45.72 0)
+			(at 77.47 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2379,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.fr/datasheet/2/40/AccuGuardLC_0402-932635.pdf"
-			(at 38.1 45.72 0)
+			(at 74.93 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2389,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Fuses .0375A 4.8mOhm Red Thin Film Fuses 0603"
-			(at 40.64 45.72 0)
+			(at 72.39 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2399,7 @@
 			)
 		)
 		(property "Height" "0.71"
-			(at 43.18 45.72 0)
+			(at 69.85 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2409,7 @@
 			)
 		)
 		(property "Mouser Part Number" "581-F0603G0R03FNTR"
-			(at 45.72 45.72 0)
+			(at 67.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2419,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kyocera-AVX/F0603G0R03FNTR?qs=%252BdQmOuGyFcF4KSz8iSws5w%3D%3D"
-			(at 48.26 45.72 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2429,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 50.8 45.72 0)
+			(at 62.23 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2440,7 +2439,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "F0603G0R03FNTR"
-			(at 53.34 45.72 0)
+			(at 59.69 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2465,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 118.11 0)
+		(at 76.2 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2475,7 +2474,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0a60c86-d2ef-4397-a765-531f32d8300a")
 		(property "Reference" "R24"
-			(at 39.37 116.8399 0)
+			(at 73.66 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2483,7 @@
 			)
 		)
 		(property "Value" "9996"
-			(at 39.37 119.3799 0)
+			(at 73.66 36.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,7 +2492,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 35.052 118.11 90)
+			(at 77.978 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,7 +2501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 118.11 0)
+			(at 76.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2510,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 36.83 118.11 0)
+			(at 76.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
