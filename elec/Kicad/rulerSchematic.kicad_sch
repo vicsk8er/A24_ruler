@@ -4,41 +4,13 @@
 	(generator_version "8.0")
 	(uuid "a1545928-1195-40b9-b3c4-78f837012afb")
 	(paper "A4")
+	(title_block
+		(title "Touillometre - Root ")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols)
-	(rectangle
-		(start 181.61 133.35)
-		(end 267.97 154.94)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 28cac693-b494-446c-94f0-8b78b759ea63)
-	)
-	(text "Light sensor\naccelero\nLecteur RFID (pour récup les data / rickroll)\nPtit jeu de merdre sur écran\nFlash light ruler\ndétecteur métaux\nlumière mauve (pour lire les écriture invisible oeil nue)\nChronomètre/horloge sur écran (juste numérique, pas de on ce fait chier mettons)\nmagnétomètre (pour avoir une bousole)"
-		(exclude_from_sim no)
-		(at 182.88 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d4d8c24-5b38-445b-8733-2a81ba21d33e")
-	)
-	(text "SI ON VEUX CE FAIRE CHIER (idées supplémentaire)"
-		(exclude_from_sim no)
-		(at 207.01 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e790e3b7-c395-4bd1-80fb-8a481dda4c45")
-	)
 	(sheet
 		(at 30.48 22.86)
 		(size 41.91 29.21)

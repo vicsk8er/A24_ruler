@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "207021c1-a9f0-4dbe-b9b5-c0ccb8fe748c")
 	(paper "A4")
+	(title_block
+		(title "Touillometre - ToF Distance Sensor")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols
 		(symbol "+3.3V_1"
 			(power)
@@ -2461,7 +2467,7 @@
 		)
 		(uuid "2ab9be9d-aa93-4b93-a9be-448436511089")
 	)
-	(text "Magouille pour transformer la logique SDA/SCL qui est de 3.3V a une logique SDA/SCL de 2.8V \nTrust it should work (In JULIEN we Trust)"
+	(text "Permet de transformer la logique SDA/SCL qui est de 3.3V a une logique SDA/SCL de 2.8V "
 		(exclude_from_sim no)
 		(at 72.39 35.306 0)
 		(effects
@@ -2471,22 +2477,24 @@
 		)
 		(uuid "33938344-6414-4e7a-abcc-6bd155c26ee7")
 	)
-	(text "GPIO1 est une sortie qui permet de trigg des interrupt\nex: distance aillant atteint un seuil prédéfini\noptions: 1. soit on le connecte pour avoir des notifs\n2. on le connect pas (présentement pas connecté)\n\n"
+	(text "Petit LDO (Low Drop Regulator) 3V3 ---> 2V8"
 		(exclude_from_sim no)
-		(at 131.064 129.794 0)
+		(at 205.74 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "787b99dd-59e4-4010-bf34-bedeb20ce1be")
+		(uuid "625fd935-a3b0-4311-9d4e-f11ad4f72781")
 	)
 	(text "Ceci est un petit PCB\non veux pouvoir le retirer et le remettre avec un header"
 		(exclude_from_sim no)
-		(at 56.896 24.384 0)
+		(at 64.008 23.876 0)
 		(effects
 			(font
 				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
 				(italic yes)
 			)
 		)
@@ -2502,9 +2510,9 @@
 		)
 		(uuid "c861978e-13ab-422c-846b-c80147abe317")
 	)
-	(text "XSHUT = peremet de désactiver le capteur\nen mettant cette broche a LOW.\nIl ne consommera pas bcp d'énergie a ce momment là\noptions: 1. soit on le met a high (2.8V)\n2. on le connecte au MCU et qu'on le met a high quand on veux l'utiliser (présentement connecté)\n"
+	(text "XSHUT = peremet de désactiver le capteur\nen mettant cette broche a LOW.\n"
 		(exclude_from_sim no)
-		(at 133.604 117.348 0)
+		(at 128.524 116.078 0)
 		(effects
 			(font
 				(size 1.27 1.27)

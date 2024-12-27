@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "953edc47-e697-42e2-a26e-17587eb40e9c")
 	(paper "A4")
+	(title_block
+		(title "Touillomètre - Battery Management")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols
 		(symbol "B2B-XH-A:B2B-XH-A"
 			(pin_names
@@ -1506,8 +1512,8 @@
 		(uuid "f98753ec-e248-4f21-84db-d5df47113913")
 	)
 	(rectangle
-		(start 62.23 133.35)
-		(end 85.09 165.1)
+		(start 189.23 52.07)
+		(end 212.09 83.82)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1541,7 +1547,7 @@
 	)
 	(text "Mounting Hole Battery + LCD\n"
 		(exclude_from_sim no)
-		(at 74.422 130.556 0)
+		(at 201.422 49.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1561,23 +1567,13 @@
 	)
 	(text "M2 Screw"
 		(exclude_from_sim no)
-		(at 68.072 166.878 0)
+		(at 195.072 85.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "848c9455-0b10-4e72-8f01-358d9486cce3")
-	)
-	(text "Valider si j'ai pas inverser les connexion ici\ndu connecteur de la batterie\n"
-		(exclude_from_sim no)
-		(at 198.12 65.532 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-			)
-		)
-		(uuid "abc8a74c-a27d-4c50-bccd-f57aa1c3ddb7")
 	)
 	(text "Charging at 4.2V with 500mA current\n"
 		(exclude_from_sim no)
@@ -2187,7 +2183,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 160.02 0)
+		(at 191.77 78.74 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2196,7 +2192,7 @@
 		(fields_autoplaced yes)
 		(uuid "8df91081-ba41-47a4-8ccb-d79a401e1897")
 		(property "Reference" "H4"
-			(at 67.31 158.7499 0)
+			(at 194.31 77.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2201,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 161.2899 0)
+			(at 194.31 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2210,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 64.77 160.02 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +2219,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 160.02 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,7 +2228,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 160.02 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2247,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 152.4 0)
+		(at 191.77 71.12 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2260,7 +2256,7 @@
 		(fields_autoplaced yes)
 		(uuid "9260d8b3-6e40-45d0-a400-3e49a3382068")
 		(property "Reference" "H3"
-			(at 67.31 151.1299 0)
+			(at 194.31 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2265,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 153.6699 0)
+			(at 194.31 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2274,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 64.77 152.4 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2283,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 152.4 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2296,7 +2292,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 152.4 0)
+			(at 191.77 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2385,7 +2381,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 144.78 0)
+		(at 191.77 63.5 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2394,7 +2390,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1fa86ea-95a6-406b-8d26-d399f11133d0")
 		(property "Reference" "H2"
-			(at 67.31 143.5099 0)
+			(at 194.31 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2399,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 146.0499 0)
+			(at 194.31 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2408,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 64.77 144.78 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 144.78 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2430,7 +2426,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 144.78 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2515,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 64.77 137.16 0)
+		(at 191.77 55.88 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -2528,7 +2524,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc42c5bc-3c94-4b64-b694-4e9bd01348ca")
 		(property "Reference" "H1"
-			(at 67.31 135.8899 0)
+			(at 194.31 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2533,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 67.31 138.4299 0)
+			(at 194.31 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2546,7 +2542,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
-			(at 64.77 137.16 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2555,7 +2551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 137.16 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,7 +2560,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 64.77 137.16 0)
+			(at 191.77 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)

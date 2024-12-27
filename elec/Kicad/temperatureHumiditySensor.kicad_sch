@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "333d9e10-e219-42f3-849b-d5ddd5623af9")
 	(paper "A4")
+	(title_block
+		(title "Touillomètre - Humidity Sensor")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -760,7 +766,7 @@
 	)
 	(text "I2C address=0x40"
 		(exclude_from_sim no)
-		(at 135.382 39.116 0)
+		(at 137.922 47.244 0)
 		(effects
 			(font
 				(size 1.27 1.27)

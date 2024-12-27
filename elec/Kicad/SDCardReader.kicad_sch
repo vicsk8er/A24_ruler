@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "94fb5f86-0ca7-4c52-9711-1abeae0c7e16")
 	(paper "A4")
+	(title_block
+		(title "Touillometre - SD Card Reader")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -1153,6 +1159,16 @@
 			(type default)
 		)
 		(uuid "ffc6a5dc-412e-467f-b6ab-44126bd1dcf9")
+	)
+	(text "SPI micro SD socket"
+		(exclude_from_sim no)
+		(at 91.44 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b1c321d6-1875-4b6e-94ca-6fc3f22b8c23")
 	)
 	(global_label "SPI1_MISO"
 		(shape input)

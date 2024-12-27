@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "8f90054b-0796-45de-8c0e-d2f67e09783d")
 	(paper "A4")
+	(title_block
+		(title "Touillomètre - Multimeter")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols
 		(symbol "DSS16UTR:DSS16UTR"
 			(pin_names
@@ -1518,6 +1524,18 @@
 			(type default)
 		)
 		(uuid "f77101af-6ad8-4e84-995a-174793890a4e")
+	)
+	(text "In Julien We Truss Que Ça Fonctionne"
+		(exclude_from_sim no)
+		(at 62.484 20.32 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "fdeda5c7-e5b3-42a0-864a-82c947269c0b")
 	)
 	(global_label "read_pin"
 		(shape output)

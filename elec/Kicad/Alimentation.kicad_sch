@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "02661162-47ec-4f44-a6fc-dbf313991208")
 	(paper "A4")
+	(title_block
+		(title "Touillomètre - Power Management")
+		(date "2024-12-26")
+		(rev "C3I")
+		(company "University of Sherbrooke")
+	)
 	(lib_symbols
 		(symbol "+3.3VA_1"
 			(power)
@@ -4569,7 +4575,7 @@
 	)
 	(rectangle
 		(start 198.12 74.93)
-		(end 275.59 120.65)
+		(end 275.59 123.19)
 		(stroke
 			(width 0)
 			(type dash)
@@ -4590,7 +4596,7 @@
 		)
 		(uuid "049ac3af-f034-4d0a-b186-15a71889196c")
 	)
-	(text "Vin = 5V\nVbat = entre 4.2V et 3.5V"
+	(text "Vin = 5V (si USB branché)\nVbat = entre 4.2V et 3.5V"
 		(exclude_from_sim no)
 		(at 30.48 38.862 0)
 		(effects
@@ -4632,26 +4638,6 @@
 		)
 		(uuid "637d40f9-404e-4659-9c67-b1ea43ebd70a")
 	)
-	(text "In Phil we Trust"
-		(exclude_from_sim no)
-		(at 110.744 98.298 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b174063-7957-491a-8b21-fd5a9042b916")
-	)
-	(text "METTRE DES SWITCH POUR ÉTEINDRE LE CIRCUIT + avoir une scroll wheel vrm bs pour les menu (et la magouille ultime)"
-		(exclude_from_sim no)
-		(at 74.676 17.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8a2a3714-e2a8-482a-976e-c2ee270a2641")
-	)
 	(text "Battery percentage charger\n"
 		(exclude_from_sim no)
 		(at 210.566 73.406 0)
@@ -4674,23 +4660,13 @@
 	)
 	(text "LED QUI INDIQUE QUE LE CIRCUIT EST ALIMENTÉ"
 		(exclude_from_sim no)
-		(at 129.032 37.846 0)
+		(at 128.778 39.624 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "c0ff78dc-54b9-4bf1-928c-452b30d3c886")
-	)
-	(text "La valeur de la res pour la DEL est haute(1K5), mais normal selon Phil's Lab "
-		(exclude_from_sim no)
-		(at 111.76 94.488 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cb04189f-807a-4b7f-a8aa-42782a5379c7")
 	)
 	(text "N-Channel"
 		(exclude_from_sim no)
@@ -4726,7 +4702,7 @@
 	)
 	(text "MOSFET N-Channel:\nSi une tension appliqué a la Gate est suppérieur que celle a la Source,\nle courant va circuler du Drain a la Source"
 		(exclude_from_sim no)
-		(at 151.13 105.41 0)
+		(at 151.638 108.966 0)
 		(effects
 			(font
 				(size 1.27 1.27)
