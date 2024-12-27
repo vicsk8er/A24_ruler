@@ -57,9 +57,29 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ST7789_CS_Pin GPIO_PIN_0
+#define ST7789_CS_GPIO_Port GPIOA
+#define ST7789_RESET_Pin GPIO_PIN_0
+#define ST7789_RESET_GPIO_Port GPIOB
+#define ST7789_RST_Pin GPIO_PIN_1
+#define ST7789_RST_GPIO_Port GPIOB
+#define BOUTON_LOG_Pin GPIO_PIN_2
+#define BOUTON_LOG_GPIO_Port GPIOB
+#define BOUTON_IN_Pin GPIO_PIN_10
+#define BOUTON_IN_GPIO_Port GPIOB
+#define BOUTON_BACK_Pin GPIO_PIN_11
+#define BOUTON_BACK_GPIO_Port GPIOB
+#define SD_CS_Pin GPIO_PIN_12
+#define SD_CS_GPIO_Port GPIOB
+#define XSHUT_Pin GPIO_PIN_15
+#define XSHUT_GPIO_Port GPIOB
+#define LED_STAT_Pin GPIO_PIN_3
+#define LED_STAT_GPIO_Port GPIOB
+#define ST7789_DC_Pin GPIO_PIN_6
+#define ST7789_DC_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#define SD_SPI_HANDLE hspi1
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

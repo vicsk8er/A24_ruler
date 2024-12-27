@@ -1,0 +1,7 @@
+17:24:30 **** Incremental Build of configuration Debug for project TouilloMetre ****
+make -j14 all 
+arm-none-eabi-size  TouilloMetre.elf 
+   text	   data	    bss	    dec	    hex	filename
+  47240	    124	   3044	  50408	   c4e8	TouilloMetre.elf
+Finished building: default.size.stdout
+ 

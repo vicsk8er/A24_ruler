@@ -1,0 +1,3 @@
+../Core/Src/I2CHandler.cpp:10:1:I2CHandler::I2CHandler(I2C_HandleTypeDef*)	1
+../Core/Src/I2CHandler.cpp:12:19:HAL_StatusTypeDef I2CHandler::write(uint16_t, uint8_t*, uint16_t)	1
+../Core/Src/I2CHandler.cpp:16:19:HAL_StatusTypeDef I2CHandler::read(uint16_t, uint8_t*, uint16_t)	1

@@ -1,0 +1,14 @@
+../Core/Src/EventLogger.cpp:10:1:EventLogger::EventLogger()	3
+../Core/Src/EventLogger.cpp:22:6:void EventLogger::addSensor(ISensor*)	1
+../Core/Src/EventLogger.cpp:28:6:bool EventLogger::logHTU21DEvent()	11
+../Core/Src/EventLogger.cpp:77:6:bool EventLogger::logVL53L0XEvent()	11
+../Core/Src/EventLogger.cpp:125:6:bool EventLogger::logLTR_303ALSEvent()	11
+../Core/Src/EventLogger.cpp:173:6:bool EventLogger::logADXL343Event()	11
+../Core/Src/EventLogger.cpp:221:6:bool EventLogger::logMultimetreEvent()	11
+../Core/Src/EventLogger.cpp:269:6:bool EventLogger::mountLogger()	2
+../Core/Src/EventLogger.cpp:277:6:bool EventLogger::unmountLogger()	2
+../Core/Src/EventLogger.cpp:285:6:bool EventLogger::updateLoggerSpec()	2
+../Core/Src/EventLogger.cpp:296:10:uint32_t EventLogger::getLoggerTotalSpace()	1
+../Core/Src/EventLogger.cpp:301:10:uint32_t EventLogger::getLoggerFreeSpace()	1
+../Core/Src/EventLogger.cpp:306:6:void EventLogger::setCurrentSensor(currentSensor)	1
+../Core/Src/EventLogger.cpp:311:6:bool EventLogger::logEvent()	7
