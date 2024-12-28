@@ -24,6 +24,10 @@
 #include "I2CHandler.h"
 #include "HTU21D.h"
 #include "EventLogger.h"
+#include "Multimetre.h"
+#include "ADXL343.h"
+#include "LTR303ALS.h"
+#include "menu.hpp"
 
 #include <stdio.h>
 #include <string.h>
@@ -62,14 +66,6 @@ PCD_HandleTypeDef hpcd_USB_FS;
 uint8_t counter = 0;
 
 /* USER CODE BEGIN PV */
-typedef struct{
-	uint8_t button;
-	int8_t mouse_x;
-	int8_t mouse_y;
-	int8_t wheel;
-
-} mouseHID;
-mouseHID mousehid = {0,0,0,0};
 bool mount_sd;
 FATFS fs;
 FIL fil;
@@ -153,44 +149,21 @@ int main(void) {
 
 	// Création de l'instance de I2CHandler
 	I2CHandler i2cHandler(&hi2c1);
-
-	/****Code pour l'initialisation du HTU21D****/
-	float temperature = 0.0f;
-	float humidity = 0.0f;
-	uint8_t userReg = 0U;
-	// Adresse de l'HTU21D (exemple 0x40)
 	uint8_t htu21dAddress = 0x40;
 	// Création de l'instance de HTU21D
 	HTU21D htu21d(htu21dAddress, i2cHandler);
 	bool begin_flag = htu21d.begin();
-
-	HAL_Delay(1000); //a short delay is important to let the SD card settle
-
-
-	/* Infinite loop */
-	/* USER CODE BEGIN WHILE */
-	static bool unmount = false;
-	static bool logInfo = false;
+	uint8_t adxl343Address = 0x1D;
+	ADXL343 adxl(adxl343Address, i2cHandler);
 	EventLogger eventLogger;
 	eventLogger.addSensor(&htu21d);
+	eventLogger.addSensor(&adxl);
 	eventLogger.setCurrentSensor(HTU21D_s);
+	Menu menu;
 	while (1) {
 
-		/****Code pour faire fonctionner le HTU21D****/
-		htu21d.measure();
-		temperature = htu21d.getTemperature();
-		humidity = htu21d.getHumidity();
-		HAL_Delay(3000);
+		menu.initScreen();
 
-		if(logInfo){
-			logInfo = false;
-			eventLogger.logEvent();
-
-		}
-		if(unmount){
-			unmount = false;
-			eventLogger.unmountLogger();
-		}
 		/* USER CODE END WHILE */
 
 	}

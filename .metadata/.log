@@ -13812,3 +13812,9 @@ org.eclipse.jface.resource.DeviceResourceException: Unable to create resource UR
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-27 20:28:02.187
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-27 23:51:46.407
+!MESSAGE Indexed 'TouilloMetre' (49 sources, 279 headers) in 3.47 sec: 25,633 declarations; 86,959 references; 0 unresolved inclusions; 1 syntax errors; 6 unresolved names (0.0053%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-27 23:52:23.146
+!MESSAGE Indexed 'TouilloMetre' (49 sources, 279 headers) in 3.84 sec: 25,633 declarations; 86,959 references; 0 unresolved inclusions; 1 syntax errors; 6 unresolved names (0.0053%)

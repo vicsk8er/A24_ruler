@@ -1,0 +1,50 @@
+/*
+ * Multimetre.cpp
+ *
+ *  Created on: Dec 27, 2024
+ *      Author: victorx1
+ */
+
+#include "Multimetre.h"
+#include <stdio.h>
+#include <stdlib.h>
+Multimetre::Multimetre(){}
+
+uint16_t Multimetre::readADCIN3() {
+    if (HAL_ADC_Start(&hadc) != HAL_OK) {
+		//Error_Handler();
+    }
+
+    if (HAL_ADC_PollForConversion(&hadc, 100) != HAL_OK) {
+        //Error_Handler();
+    }
+
+    uint16_t value = HAL_ADC_GetValue(&hadc);
+
+    HAL_ADC_Stop(&hadc);
+
+    return value;
+}
+
+float Multimetre::getVoltage() {
+    uint16_t adcValue = readADCIN3();
+
+    // Calcul de la tension en fonction de la référence et de la résolution de l'ADC
+    // Par exemple, si la référence est 3.3V, la formule est :
+    float voltage = (float)adcValue * 3.3f / 4095.0f;  // Pour un ADC à 12 bits
+
+    return voltage * ratio;
+}
+
+
+const char* Multimetre::getFormattedMeasurement() {
+    static char buffer[32];
+    float voltage = getVoltage();
+    //Il faudrait fractionner la partie entière de la partie fractionnaire
+    snprintf(buffer, sizeof(buffer), "Voltage: %d V", voltage);
+    return buffer;
+}
+
+const char* Multimetre::getSensorName() {
+    return "Multimètre ADC IN3";
+}

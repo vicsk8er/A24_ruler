@@ -1,0 +1,13 @@
+../Core/Src/ISensor.h:11:7:constexpr ISensor::ISensor()	16	static
+../Core/Src/LTR303ALS.cpp:12:1:LTR303ALS::LTR303ALS(uint8_t, I2CHandler&)	32	static
+../Core/Src/LTR303ALS.cpp:16:6:bool LTR303ALS::begin()	16	static
+../Core/Src/LTR303ALS.cpp:34:6:bool LTR303ALS::setPowerUp()	32	static
+../Core/Src/LTR303ALS.cpp:43:6:bool LTR303ALS::setPowerDown()	32	static
+../Core/Src/LTR303ALS.cpp:53:6:bool LTR303ALS::setControl(uint8_t, bool, bool)	32	static
+../Core/Src/LTR303ALS.cpp:97:6:bool LTR303ALS::getControl(uint8_t*, bool, bool)	40	static
+../Core/Src/LTR303ALS.cpp:125:6:bool LTR303ALS::setMeasurementRate(uint8_t, uint8_t)	32	static
+../Core/Src/LTR303ALS.cpp:172:6:bool LTR303ALS::getMeasurementRate(uint8_t*, uint8_t*)	40	static
+../Core/Src/LTR303ALS.cpp:186:6:bool LTR303ALS::getData(uint16_t*, uint16_t*)	40	static
+../Core/Src/LTR303ALS.cpp:213:6:bool LTR303ALS::getLux(uint8_t, uint8_t, unsigned int, unsigned int, double*)	64	static
+../Core/Src/LTR303ALS.cpp:262:13:virtual const char* LTR303ALS::getFormattedMeasurement()	48	static
+../Core/Src/LTR303ALS.cpp:276:13:virtual const char* LTR303ALS::getSensorName()	16	static

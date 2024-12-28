@@ -1,0 +1,146 @@
+#include "ST7789/st7789.h"
+#include <string>
+#include <vector>
+#include "ISensor.h"
+
+class Menu
+{
+private:
+    const uint8_t writingPosY = (ST7789_HEIGHT / 2) - 5;
+    const uint8_t writingPosX = 7;
+    const uint8_t TitlePosY = (ST7789_HEIGHT / 2) + 15;
+    const uint8_t writingPosX2 = 10;
+
+    ISensor *items[256];
+    uint8_t numItems;
+
+    // vector of callbacks
+    // typedef long func_t(int, float);
+    // typedef func_t *pfunc_t;
+    // typedef std::vector<pfunc_t> funcvec_t;
+
+    // position in menu
+    uint8_t pos;
+
+public:
+    static const int8_t MOVE_DOWN = -1;
+    static const int8_t MOVE_UP = 1;
+
+    Menu();
+    ~Menu();
+    /**
+     * @brief tests the screen
+     * @return none
+     */
+    void test();
+    /**
+     * @brief Adds the border and the title to the screen
+     * @return none
+     */
+    void initScreen();
+    /**
+     * @brief Shows the menu to choose wich sensor they want to use
+     * @return none
+     */
+    void showMenu();
+    /**
+     * @brief Add an item to the menu
+     * @param direction use menu::MOVE_UP or menu::MOVE_DOWN to tell where to go
+     * @return none
+     */
+    bool moveMenu(int8_t direction);
+    /**
+     * @brief Add an item to the menu
+     * @param item pointer to the sensor to be added
+     * @return none
+     */
+    void addMenuItem(ISensor *item);
+    /**
+     * @brief shows the data of the current associated value
+     * @return none
+     */
+    void showData();
+    /**
+     * @brief erases the writable field. Usually called when writing on it is necessary
+     * @return none
+     */
+    void resetScreen();
+    /**
+     * @brief goes to the first item in the menu
+     * @return 0 if there is no first items, 1 if it works
+     **/
+    bool goToFirstItem();
+
+    /*
+    TODO add title
+    TODO add up down arrows?
+    TODO test
+    */
+};
+
+Menu::Menu()
+{
+    ST7789_Init();
+    pos = 0;
+    numItems = 0;
+}
+
+Menu::~Menu()
+{
+}
+
+void Menu::test()
+{
+    ST7789_Test();
+}
+
+void Menu::initScreen()
+{
+    ST7789_DrawRectangle(0, 0, ST7789_WIDTH, ST7789_HEIGHT, GREEN);
+    ST7789_WriteString(writingPosX, writingPosY, "TOUILLOMETRE", Font_16x26, GREEN, BLACK);
+}
+
+void Menu::showMenu()
+{
+    resetScreen();
+    ST7789_WriteString(writingPosX, writingPosY, *items[pos].getSensorName(), Font_7x10, GREEN, BLACK);
+}
+
+bool Menu::moveMenu(int8_t direction)
+{
+
+    if ((direction == MOVE_DOWN && pos < numItems) or (direction == MOVE_UP && pos > 0))
+    {
+        pos += direction;
+        showMenu();
+        return true;
+    }
+
+    return false;
+}
+
+void Menu::addMenuItem(ISensor *item)
+{
+    items[numItems] = item;
+    numItems++;
+}
+
+void Menu::showData()
+{
+    resetScreen();
+    ST7789_WriteString(writingPosX, writingPosY, *items[pos].getFormattedMeasurement(), Font_7x10, GREEN, BLACK);
+}
+
+void Menu::resetScreen()
+{
+    ST7789_DrawFilledRectangle(10, (ST7789_HEIGHT / 2) - 7, 220, 10, BLACK);
+}
+
+void Menu::goToFirstItem()
+{
+    if (numItems < 1)
+        return 0;
+
+    pos = 1;
+    showMenu() return 1;
+}

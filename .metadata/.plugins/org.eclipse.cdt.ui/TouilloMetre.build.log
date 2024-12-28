@@ -1,6 +1,14 @@
-20:43:34 **** Incremental Build of configuration Debug for project TouilloMetre ****
+23:57:59 **** Incremental Build of configuration Debug for project TouilloMetre ****
 make -j14 all 
-arm-none-eabi-g++ "../Core/Src/ADXL343.cpp" -mcpu=cortex-m0plus -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L053xx -c -I../Core/Inc -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/ADXL343.d" -MT"Core/Src/ADXL343.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/ADXL343.o"
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m0plus -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L053xx -c -I../Core/Inc -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/STM32L0xx_HAL_Driver/Inc -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/CMSIS/Device/ST/STM32L0xx/Include -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I/home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.cpp: In function 'int main()':
+../Core/Src/main.cpp:155:14: warning: unused variable 'begin_flag' [-Wunused-variable]
+  155 |         bool begin_flag = htu21d.begin();
+      |              ^~~~~~~~~~
+../Core/Src/main.cpp: At global scope:
+../Core/Src/main.cpp:317:13: warning: 'void MX_SPI2_Init()' defined but not used [-Wunused-function]
+  317 | static void MX_SPI2_Init(void)
+      |             ^~~~~~~~~~~~
 arm-none-eabi-g++ -o "TouilloMetre.elf" @"objects.list"   -mcpu=cortex-m0plus -T"/home/victorx1/Documents/universite/CCI/A24_ruler/TouilloMetre/STM32L053C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="TouilloMetre.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 /opt/st/stm32cubeide_1.17.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.1.0.202410170702/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: TouilloMetre.elf has a LOAD segment with RWX permissions
 Finished building target: TouilloMetre.elf
@@ -8,11 +16,11 @@ Finished building target: TouilloMetre.elf
 arm-none-eabi-size  TouilloMetre.elf 
 arm-none-eabi-objdump -h -S TouilloMetre.elf  > "TouilloMetre.list"
    text	   data	    bss	    dec	    hex	filename
-  47240	    124	   3044	  50408	   c4e8	TouilloMetre.elf
+  36888	    140	   3044	  40072	   9c88	TouilloMetre.elf
 Finished building: default.size.stdout
  
 Finished building: TouilloMetre.list
  
 
-20:43:34 Build Finished. 0 errors, 1 warnings. (took 483ms)
+23:58:00 Build Finished. 0 errors, 3 warnings. (took 484ms)
 

@@ -1,0 +1,37 @@
+/*
+ * Multimetre.cpp
+ *
+ *  Created on: Dec 27, 2024
+ *      Author: victorx1
+ */
+
+#include "Multimetre.h"
+
+void Multimetre::initADC() {
+    __HAL_RCC_ADC1_CLK_ENABLE();  // Activer l'horloge de l'ADC1
+
+    hadc.Instance = ADC1;  // Choisir ADC1
+    hadc.Init.Resolution = ADC_RESOLUTION_12B;  // Résolution de 12 bits
+    hadc.Init.ScanConvMode = ADC_SCAN_DISABLE;  // Pas de scan, conversion simple
+    hadc.Init.ContinuousConvMode = DISABLE;    // Pas de conversion continue
+    hadc.Init.DiscontinuousConvMode = DISABLE;  // Pas de conversion discontinue
+    hadc.Init.ExternalTrigConv = ADC_SOFTWARE_START;  // Conversion déclenchée par le logiciel
+    hadc.Init.DataAlign = ADC_DATAALIGN_RIGHT;  // Alignement des données à droite
+    hadc.Init.NbrOfConversion = 1;  // Nombre de conversions = 1 (pour un seul canal)
+
+    if (HAL_ADC_Init(&hadc) != HAL_OK) {
+        // Gestion d'erreur
+        Error_Handler();
+    }
+
+    // Configurer le canal ADC_IN3 (canal 3 pour l'ADC)
+    ADC_ChannelConfTypeDef sConfig = {0};
+    sConfig.Channel = ADC_CHANNEL_3;   // ADC_IN3
+    sConfig.Rank = ADC_REGULAR_RANK_1;  // Premier rang de conversion
+    sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;  // Temps d'échantillonnage standard
+
+    if (HAL_ADC_ConfigChannel(&hadc, &sConfig) != HAL_OK) {
+        // Gestion d'erreur
+        Error_Handler();
+    }
+}

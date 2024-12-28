@@ -41,7 +41,9 @@
 #define ADXL3XX_REG_DATA_FORMAT (0x31) /**< Data format control */
 #define ADXL3XX_REG_DATAX0 (0x32)      /**< X-axis data 0 */
 #define ADXL3XX_REG_DATAX1 (0x33)      /**< X-axis data 1 */
-#define ADXL3XX_REG_DATAY0 (0x34)      /**< Y-axis data 0 */
+#define ADXL3XX_REG_DATAY0 (0x34)      /**< Y-axis da	// Création de l'instance de HTU21D
+	HTU21D htu21d(htu21dAddress, i2cHandler);
+	bool begin_flag = htu21d.begin();ta 0 */
 #define ADXL3XX_REG_DATAY1 (0x35)      /**< Y-axis data 1 */
 #define ADXL3XX_REG_DATAZ0 (0x36)      /**< Z-axis data 0 */
 #define ADXL3XX_REG_DATAZ1 (0x37)      /**< Z-axis data 1 */

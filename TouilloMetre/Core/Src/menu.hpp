@@ -9,9 +9,9 @@ private:
     const uint8_t writingPosY = (ST7789_HEIGHT / 2) - 5;
     const uint8_t writingPosX = 7;
     const uint8_t TitlePosY = (ST7789_HEIGHT / 2) + 15;
-    const uint8_t writingPosX = 10;
+    const uint8_t writingPosX2 = 10;
 
-    ISensor *items[256];
+    ISensor *items[5];
     uint8_t numItems;
 
     // vector of callbacks
@@ -80,7 +80,7 @@ public:
 
 Menu::Menu()
 {
-    ST7789_Init();
+	//ST7789_Init();
     pos = 0;
     numItems = 0;
 }
@@ -96,14 +96,14 @@ void Menu::test()
 
 void Menu::initScreen()
 {
-    ST7789_DrawRectangle(0, 0, ST7789_WIDTH, ST7789_HEIGHT, GREEN);
-    ST7789_WriteString(writingPosX, writingPosY, "TOUILLOMETRE", Font_16x26, GREEN, BLACK);
+    //ST7789_DrawRectangle(0, 0, ST7789_WIDTH, ST7789_HEIGHT, GREEN);
+    //ST7789_WriteString(writingPosX, writingPosY, "TOUILLOMETRE", Font_16x26, GREEN, BLACK);
 }
 
 void Menu::showMenu()
 {
     resetScreen();
-    ST7789_WriteString(writingPosX, writingPosY, *items[pos].getSensorName(), Font_7x10, GREEN, BLACK);
+    ST7789_WriteString(writingPosX, writingPosY, items[pos]->getSensorName(), Font_7x10, GREEN, BLACK);
 }
 
 bool Menu::moveMenu(int8_t direction)
@@ -128,7 +128,7 @@ void Menu::addMenuItem(ISensor *item)
 void Menu::showData()
 {
     resetScreen();
-    ST7789_WriteString(writingPosX, writingPosY, *items[pos].getFormattedMeasurement(), Font_7x10, GREEN, BLACK);
+    ST7789_WriteString(writingPosX, writingPosY, items[pos]->getFormattedMeasurement(), Font_7x10, GREEN, BLACK);
 }
 
 void Menu::resetScreen()
@@ -136,11 +136,12 @@ void Menu::resetScreen()
     ST7789_DrawFilledRectangle(10, (ST7789_HEIGHT / 2) - 7, 220, 10, BLACK);
 }
 
-void Menu::goToFirstItem()
+bool Menu::goToFirstItem()
 {
     if (numItems < 1)
-        return 0;
+        return false;
 
     pos = 1;
-    showMenu() return 1;
+    showMenu();
+    return true;
 }

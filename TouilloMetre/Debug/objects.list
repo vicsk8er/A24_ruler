@@ -4,6 +4,8 @@
 "./Core/Src/EventLogger.o"
 "./Core/Src/HTU21D.o"
 "./Core/Src/I2CHandler.o"
+"./Core/Src/LTR303ALS.o"
+"./Core/Src/Multimetre.o"
 "./Core/Src/VL53L0X.o"
 "./Core/Src/fatfs_sd.o"
 "./Core/Src/main.o"

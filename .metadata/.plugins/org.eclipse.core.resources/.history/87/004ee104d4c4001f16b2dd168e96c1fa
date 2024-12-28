@@ -1,0 +1,31 @@
+/*
+ * Multimetre.cpp
+ *
+ *  Created on: Dec 27, 2024
+ *      Author: victorx1
+ */
+
+#include "Multimetre.h"
+
+
+uint16_t Multimetre::readADCIN3() {
+    // Démarrer la conversion ADC
+    if (HAL_ADC_Start(&hadc) != HAL_OK) {
+        // Gestion d'erreur
+        Error_Handler();
+    }
+
+    // Attendre la fin de la conversion
+    if (HAL_ADC_PollForConversion(&hadc, 100) != HAL_OK) {
+        // Gestion d'erreur
+        Error_Handler();
+    }
+
+    // Lire la valeur de l'ADC
+    uint16_t value = HAL_ADC_GetValue(&hadc);
+
+    // Arrêter l'ADC
+    HAL_ADC_Stop(&hadc);
+
+    return value;  // Retourne la valeur brute de l'ADC
+}

@@ -44,7 +44,9 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  /home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Middlewares/Third_Party/FatFs/src/ff.h \
  ../FATFS/Target/user_diskio.h ../Core/Src/fatfs_sd.h \
  ../Core/Src/I2CHandler.h ../Core/Src/HTU21D.h ../Core/Src/ISensor.h \
- ../Core/Src/EventLogger.h
+ ../Core/Src/EventLogger.h ../Core/Src/Multimetre.h ../Core/Src/ADXL343.h \
+ ../Core/Src/LTR303ALS.h ../Core/Src/menu.hpp ../Core/Inc/ST7789/st7789.h \
+ ../Core/Inc/ST7789/fonts.h ../Core/Inc/ST7789/../main.h
 ../Core/Inc/main.h:
 /home/victorx1/STM32Cube/Repository/STM32Cube_FW_L0_V1.12.2/Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h:
 ../Core/Inc/stm32l0xx_hal_conf.h:
@@ -95,3 +97,10 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Core/Src/HTU21D.h:
 ../Core/Src/ISensor.h:
 ../Core/Src/EventLogger.h:
+../Core/Src/Multimetre.h:
+../Core/Src/ADXL343.h:
+../Core/Src/LTR303ALS.h:
+../Core/Src/menu.hpp:
+../Core/Inc/ST7789/st7789.h:
+../Core/Inc/ST7789/fonts.h:
+../Core/Inc/ST7789/../main.h:

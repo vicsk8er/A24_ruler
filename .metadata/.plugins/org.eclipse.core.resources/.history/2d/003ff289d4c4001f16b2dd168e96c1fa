@@ -1,0 +1,29 @@
+/*
+ * Multimetre.h
+ *
+ *  Created on: Dec 27, 2024
+ *      Author: victorx1
+ */
+
+#ifndef SRC_MULTIMETRE_H_
+#define SRC_MULTIMETRE_H_
+#include "ISensor.h"
+#include <stdint.h>
+#include "stm32l0xx_hal.h"  // Pour l'accès aux fonctions HAL
+class Multimetre: public ISensor {
+private:
+    ADC_HandleTypeDef hadc;  // Handle de l'ADC
+    static uint16_t R1 = 9996;
+    static uint16_t R2 = 833;
+    static const float ratio = R1/R2;
+public:
+	Multimetre();
+	uint16_t readADCIN3();
+	float getVoltage();
+
+	const char* getFormattedMeasurement();
+	const char* getSensorName();
+	void initADC();
+};
+
+#endif /* SRC_MULTIMETRE_H_ */
