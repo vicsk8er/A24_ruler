@@ -1,5 +1,6 @@
 "./Core/Inc/ST7789/fonts.o"
 "./Core/Inc/ST7789/st7789.o"
+"./Core/Src/ADXL343.o"
 "./Core/Src/EventLogger.o"
 "./Core/Src/HTU21D.o"
 "./Core/Src/I2CHandler.o"

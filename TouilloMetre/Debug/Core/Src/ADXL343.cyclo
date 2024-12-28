@@ -1,0 +1,12 @@
+../Core/Src/ISensor.h:11:7:constexpr ISensor::ISensor()	1
+../Core/Src/ADXL343.cpp:12:1:ADXL343::ADXL343(uint8_t, I2CHandler&)	1
+../Core/Src/ADXL343.cpp:16:6:bool ADXL343::begin()	12
+../Core/Src/ADXL343.cpp:62:6:void ADXL343::setRange(adxl343_range_t)	4
+../Core/Src/ADXL343.cpp:93:17:adxl343_range_t ADXL343::getRange()	3
+../Core/Src/ADXL343.cpp:113:6:void ADXL343::setDataRate(adxl343_dataRate_t)	1
+../Core/Src/ADXL343.cpp:121:20:adxl343_dataRate_t ADXL343::getDataRate()	3
+../Core/Src/ADXL343.cpp:141:6:void ADXL343::getTrimOffsets(int8_t*, int8_t*, int8_t*)	13
+../Core/Src/ADXL343.cpp:172:6:void ADXL343::setTrimOffsets(int8_t, int8_t, int8_t)	3
+../Core/Src/ADXL343.cpp:198:6:bool ADXL343::readAcceleration(int16_t*, int16_t*, int16_t*)	3
+../Core/Src/ADXL343.cpp:219:13:virtual const char* ADXL343::getFormattedMeasurement()	2
+../Core/Src/ADXL343.cpp:230:13:virtual const char* ADXL343::getSensorName()	1
