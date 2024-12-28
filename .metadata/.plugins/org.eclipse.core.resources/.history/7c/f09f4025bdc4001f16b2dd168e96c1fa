@@ -82,7 +82,7 @@ typedef enum {
 
 class ADXL343 : public ISensor{
 private:
-	static const uint8_t ADXL343_ADDR = 0x1D;
+	static const uint8_t HTU21D_ADDR = 0x40;
 
 	  const uint8_t _addr;
 	  I2CHandler& _i2cHandler;
